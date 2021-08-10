@@ -1,0 +1,2309 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <link rel="icon" href="../images/logo.png" />
+    <title>Olimpiada</title>
+</head>
+<body>
+    <header>
+        <a href="../index.html">
+            <img height="20px" src="https://img.icons8.com/officel/50/000000/olympic-rings.png" />
+            Olimpiada
+        </a>
+        <span id="text-data"></span>
+        <i title="Menu" id="menu-btn" class="fas fa-bars" onclick="show()"></i>
+    </header>
+    <div class="page-box">
+        <aside id="side-menu">
+            <a href="../index.html">Home</a>
+            <a href="echipam.html">Echipa <br>R. Moldova</a>
+            <a href="calendar.html">Calendarul Olimpiadei</a>
+            <a href="evenimente.html">Evenimente</a>
+            <a href="contacte.html">Contacte</a>
+            <img width="100%" src="../images/activ.jpeg"/>
+            <img width="100%" src="../images/tokyo.jpg"/>
+        </aside>
+        <main>
+            <div id="top3"></div>
+            <a href="#top3"><img class="up" src="../images/up.png"/></a>
+            <img class="mascota" src="../images/mascota.png"/>
+            <h2 class="title">Țările participante</h2>
+            <p>
+                La 22 ianuarie 2020, 142 de comitete olimpice naționale erau calificate pentru participarea la Jocurile
+                Olimpice în Tokyo. La moment 01.07.2021 sunt prezentate <a target="_blank"
+                href="https://olympics.com/tokyo-2020/olympic-games/en/results/all-sports/nocs-list.htm">
+                205 de țări participante</a>. Printre cele 205 de țări care vor
+                participa la Jocurile Olimpice de la Tokyo, 71 nu au câștigat niciodată o medalie olimpică. Bolivia,
+                Bosnia-Herțegovina, El Salvador, Honduras, Libia, Malta, Nepal, Nicaragua sau Palestina apar pe această
+                listă de echipe care vor ajunge Tokyo cu intenția de a debuta pe podium.
+            </p>
+            <h4>Fără spectatori străini</h4>
+            <p>
+                Conform hotărârii organizatorilor, fanii internaționali nu vor avea acces fizic la Jocurile Olimpice din
+                cauza pandemiei de Covid-19. Decizia a fost anunțată după o întâlnire online a Comitetului Olimpic
+                Internațional cu ceilalți membri ai echipei organizatorice.
+            </p>
+            <h4>Program</h4>
+            <h5>Dă click pe o imagine pentru a vedea rezultatele</h5>
+            <div class="icons-sport">
+                <a href="#s1"><img title="Basket 3x3" class="s-icon" src="../images/s_1.png"/></a>
+                <a href="#s2"><img title="Tir cu arcul" class="s-icon" src="../images/s2.png"/></a>
+                <a href="#s3"><img title="Gimnastica artistică" class="s-icon" src="../images/s24_1.png"/></a>
+                <a href="#s4"><img title="Înot artistic" class="s-icon" src="../images/s4.png"/></a>
+                <a href="#s5"><img title="Atletism" class="s-icon" src="../images/s5.png"/></a>
+                <a href="#s6"><img title="Badminton" class="s-icon" src="../images/s6.png"/></a>
+                <a href="#s7"><img title="Baseball" class="s-icon" src="../images/s7.png"/></a>
+                <a href="#s8"><img title="Basket" class="s-icon" src="../images/s1.png"/></a>
+                <a href="#s9"><img title="Volei de plajă" class="s-icon" src="../images/s8_1.png"/></a>
+                <a href="#s10"><img title="Box" class="s-icon" src="../images/s9.png"/></a>
+                <a href="#s11"><img title="Canoe Slalom" class="s-icon" src="../images/s10_1.png"/></a>
+                <a href="#s12"><img title="Canoe Sprint" class="s-icon" src="../images/s10.png"/></a>
+                <a href="#s13"><img title="Ciclism BMX Freestyle" class="s-icon" src="../images/s12_1.png"/></a>
+                <a href="#s14"><img title="Ciclism BMX cursă" class="s-icon" src="../images/s12_2.png"/></a>
+                <a href="#s15"><img title="Ciclism de munte" class="s-icon" src="../images/s12_3.png"/></a>
+                <a href="#s16"><img title="Ciclism pe șosea" class="s-icon" src="../images/s12_4.png"/></a>
+                <a href="#s17"><img title="Ciclism pe pistă" class="s-icon" src="../images/s12_5.png"/></a>
+                <a href="#s18"><img title="Sărituri în apă" class="s-icon" src="../images/s13.png"/></a>
+                <a href="#s19"><img title="Echitație" class="s-icon" src="../images/s14.png"/></a>
+                <a href="#s20"><img title="Scrimă" class="s-icon" src="../images/s15.png"/></a>
+                <a href="#s21"><img title="Fotbal" class="s-icon" src="../images/s16.png"/></a>
+                <a href="#s22"><img title="Golf" class="s-icon" src="../images/s17.png"/></a>
+                <a href="#s23"><img title="Handbal" class="s-icon" src="../images/s18.png"/></a>
+            </div>
+            <div class="icons-sport">
+                <a href="#s24"><img title="Hochei pe iarbă" class="s-icon" src="../images/s19.png"/></a>
+                <a href="#s25"><img title="Judo" class="s-icon" src="../images/s20.png"/></a>
+                <a href="#s26"><img title="Karate" class="s-icon" src="../images/s21.png"/></a>
+                <a href="#s27"><img title="Natație maraton" class="s-icon" src="../images/s22_1.png"/></a>
+                <a href="#s28"><img title="Pentatlon modern" class="s-icon" src="../images/s23.png"/></a>
+                <a href="#s29"><img title="Gimnastică ritmică" class="s-icon" src="../images/s3.png"/></a>
+                <a href="#s30"><img title="Canotaj" class="s-icon" src="../images/s11.png"/></a>
+                <a href="#s31"><img title="Rugby în VII" class="s-icon" src="../images/s25.png"/></a>
+                <a href="#s32"><img title="Navigație" class="s-icon" src="../images/s26.png"/></a>
+                <a href="#s33"><img title="Tir" class="s-icon" src="../images/s27.png"/></a>
+                <a href="#s34"><img title="Scateboarding" class="s-icon" src="../images/s28.png"/></a>
+                <a href="#s35"><img title="Alpinism sportiv" class="s-icon" src="../images/s29.png"/></a>
+                <a href="#s36"><img title="Surfing" class="s-icon" src="../images/s28_1.png"/></a>
+                <a href="#s37"><img title="Înot" class="s-icon" src="../images/s22.png"/></a>
+                <a href="#s38"><img title="Tenis de masă" class="s-icon" src="../images/s30.png"/></a>
+                <a href="#s39"><img title="Taekwondo" class="s-icon" src="../images/s31.png"/></a>
+                <a href="#s40"><img title="Tenis de câmp" class="s-icon" src="../images/s32.png"/></a>
+                <a href="#s41"><img title="Trambulină" class="s-icon" src="../images/s24.png"/></a>
+                <a href="#s42"><img title="Triatlon" class="s-icon" src="../images/s33.png"/></a>
+                <a href="#s43"><img title="Volei" class="s-icon" src="../images/s8.png"/></a>
+                <a href="#s44"><img title="Polo pe apă" class="s-icon" src="../images/s34.png"/></a>
+                <a href="#s45"><img title="Haltere" class="s-icon" src="../images/s35.png"/></a>
+                <a href="#s46"><img title="Lupte" class="s-icon" src="../images/s36.png"/></a>
+            </div>
+            <div class="icons-sport-mob">
+                <a href="#s1"><img class="s-icon" src="../images/s_1.png"/></a>
+                <a href="#s2"><img class="s-icon" src="../images/s2.png"/></a>
+                <a href="#s3"><img class="s-icon" src="../images/s24_1.png"/></a>
+                <a href="#s4"><img class="s-icon" src="../images/s4.png"/></a>
+                <a href="#s5"><img class="s-icon" src="../images/s5.png"/></a>
+                <a href="#s6"><img class="s-icon" src="../images/s6.png"/></a>
+                <a href="#s7"><img class="s-icon" src="../images/s7.png"/></a>
+                <a href="#s8"><img class="s-icon" src="../images/s1.png"/></a>
+                <a href="#s9"><img class="s-icon" src="../images/s8_1.png"/></a>
+                <a href="#s10"><img class="s-icon" src="../images/s9.png"/></a>
+                <a href="#s11"><img class="s-icon" src="../images/s10_1.png"/></a>
+                <a href="#s12"><img class="s-icon" src="../images/s10.png"/></a>
+                <a href="#s13"><img class="s-icon" src="../images/s12_1.png"/></a>
+                <a href="#s14"><img class="s-icon" src="../images/s12_2.png"/></a>
+                <a href="#s15"><img class="s-icon" src="../images/s12_3.png"/></a>
+                <a href="#s16"><img class="s-icon" src="../images/s12_4.png"/></a>
+                <a href="#s17"><img class="s-icon" src="../images/s12_5.png"/></a>
+                <a href="#s18"><img class="s-icon" src="../images/s13.png"/></a>
+                <a href="#s19"><img class="s-icon" src="../images/s14.png"/></a>
+                <a href="#s20"><img class="s-icon" src="../images/s15.png"/></a>
+                <a href="#s21"><img class="s-icon" src="../images/s16.png"/></a>
+                <a href="#s22"><img class="s-icon" src="../images/s17.png"/></a>
+                <a href="#s23"><img class="s-icon" src="../images/s18.png"/></a>
+                <a href="#s24"><img class="s-icon" src="../images/s19.png"/></a>
+                <a href="#s25"><img class="s-icon" src="../images/s20.png"/></a>
+                <a href="#s26"><img class="s-icon" src="../images/s21.png"/></a>
+                <a href="#s27"><img class="s-icon" src="../images/s22_1.png"/></a>
+                <a href="#s28"><img class="s-icon" src="../images/s23.png"/></a>
+                <a href="#s29"><img class="s-icon" src="../images/s3.png"/></a>
+                <a href="#s30"><img class="s-icon" src="../images/s11.png"/></a>
+                <a href="#s31"><img class="s-icon" src="../images/s25.png"/></a>
+                <a href="#s32"><img class="s-icon" src="../images/s26.png"/></a>
+                <a href="#s33"><img class="s-icon" src="../images/s27.png"/></a>
+                <a href="#s34"><img class="s-icon" src="../images/s28.png"/></a>
+                <a href="#s35"><img class="s-icon" src="../images/s29.png"/></a>
+                <a href="#s36"><img class="s-icon" src="../images/s28_1.png"/></a>
+                <a href="#s37"><img class="s-icon" src="../images/s22.png"/></a>
+                <a href="#s38"><img class="s-icon" src="../images/s30.png"/></a>
+                <a href="#s39"><img class="s-icon" src="../images/s31.png"/></a>
+                <a href="#s40"><img class="s-icon" src="../images/s32.png"/></a>
+                <a href="#s41"><img class="s-icon" src="../images/s24.png"/></a>
+                <a href="#s42"><img class="s-icon" src="../images/s33.png"/></a>
+                <a href="#s43"><img class="s-icon" src="../images/s8.png"/></a>
+                <a href="#s44"><img class="s-icon" src="../images/s34.png"/></a>
+                <a href="#s45"><img class="s-icon" src="../images/s35.png"/></a>
+                <a href="#s46"><img class="s-icon" src="../images/s36.png"/></a>
+            </div>
+            <table class="activ">
+                <tr>
+                    <th>Activitatea</th>
+                    <th>Perioada</th>
+                    <th>Probele</th>
+                    <th>
+                        <a title="Vezi acumularea medaliilor" 
+                        target="_blank" 
+                        href="https://olympics.com/tokyo-2020/olympic-games/en/results/all-sports/medal-standings.htm">Câștigătorii</a>
+                        <br><img class="medalie" src="../images/aur.png">Gold/<img class="medalie" src="../images/argint.png">Argint/<img class="medalie" src="../images/bronz.png">Bronz
+                    </th>
+                </tr>
+                <tr id="s1">
+                    <td>Ceremonia de deschidere</td>
+                    <td>23.07</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr >
+                    <td class="cel-b">Ceremonia de închidere</td>
+                    <td class="cel-b">08.08</td>
+                    <td class="cel-b"></td>
+                    <td class="cel-b"></td>
+
+                </tr>
+                <tr >
+                    <td class="cel-b" rowspan="2"><img class="s-i" src="../images/s_1.png"/><br>Basket 3x3</td>
+                    <td class="cel-b" rowspan="2">24.07 - 28.08</td>
+                    <td><ul><li>Bărbați</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Latvia<br>
+                                            <img class="medalie" src="../images/argint.png">ROC<br>
+                                            <img class="medalie" src="../images/bronz.png">Serbia</li></ul></td>
+                </tr>
+                <tr id="s2">
+                    <td class="cel-b"><ul><li>Femei</li></ul></td>
+                    <td class="cel-b"><ul class="gab"><li><img class="medalie" src="../images/aur.png">USA<br>
+                                                          <img class="medalie" src="../images/argint.png">ROC<br>
+                                                          <img class="medalie" src="../images/bronz.png">China</li></ul></td>
+                </tr>
+                <tr>
+                    <td class="cel-b" rowspan="5"><img class="s-i" src="../images/s2.png"/><br>Tir cu arcul</td>
+                    <td class="cel-b" rowspan="5">23.07 - 31.07</td>
+                    <td><ul><li>Echipa mixtă</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Korea<br>
+                                            <img class="medalie" src="../images/argint.png">Netherlands<br>
+                                            <img class="medalie" src="../images/bronz.png">Mexico</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Echipa Femei</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Korea<br>
+                                            <img class="medalie" src="../images/argint.png">ROC<br>
+                                            <img class="medalie" src="../images/bronz.png">Germany</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Echipa Bărbați</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Korea<br>
+                                            <img class="medalie" src="../images/argint.png">Taipei<br>
+                                            <img class="medalie" src="../images/bronz.png">Japan</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Femei ind.</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Korea<br>
+                                            <img class="medalie" src="../images/argint.png">ROC<br>
+                                            <img class="medalie" src="../images/bronz.png">Italy</li></ul></td>
+                </tr>
+                <tr id="s3">
+                    <td class="cel-b"><ul><li>Bărbați ind.</li></ul></td>
+                    <td class="cel-b"><ul class="gab"><li><img class="medalie" src="../images/aur.png">Turkey<br>
+                                                          <img class="medalie" src="../images/argint.png">Italy<br>
+                                                          <img class="medalie" src="../images/bronz.png">Japan</li></ul></td>
+                </tr>
+                <tr>
+                    <td class="cel-b" rowspan="14"><img class="s-i" src="../images/s24_1.png"/><br>Gimnastica artistică</td>
+                    <td class="cel-b" rowspan="14">24.07 - 03.08</td>
+                    <td><ul><li>Echipa Bărbați</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">ROC<br>
+                                            <img class="medalie" src="../images/argint.png">Japan<br>
+                                            <img class="medalie" src="../images/bronz.png">China</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Echipa Femei</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">ROC<br>
+                                            <img class="medalie" src="../images/argint.png">USA<br>
+                                            <img class="medalie" src="../images/bronz.png">Great Britain</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Bărbați ind.</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Japan<br>
+                                            <img class="medalie" src="../images/argint.png">China<br>
+                                            <img class="medalie" src="../images/bronz.png">ROC</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Femei ind.</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">USA<br>
+                                            <img class="medalie" src="../images/argint.png">Brazil<br>
+                                            <img class="medalie" src="../images/bronz.png">ROC</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Sol Bărbați</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Israel<br>
+                                            <img class="medalie" src="../images/argint.png">Spain<br>
+                                            <img class="medalie" src="../images/bronz.png">China</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Cal cu mînere Bărbați</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Great Britain<br>
+                                            <img class="medalie" src="../images/argint.png">Taipei<br>
+                                            <img class="medalie" src="../images/bronz.png">Japan</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Sărituri Femei</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Brazil<br>
+                                            <img class="medalie" src="../images/argint.png">USA<br>
+                                            <img class="medalie" src="../images/bronz.png">Korea</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Paralele inegale Femei</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Belgium<br>
+                                            <img class="medalie" src="../images/argint.png">ROC<br>
+                                            <img class="medalie" src="../images/bronz.png">USA</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Inele Bărbați</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">China<br>
+                                            <img class="medalie" src="../images/argint.png">China<br>
+                                            <img class="medalie" src="../images/bronz.png">Greece</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Sărituri Bărbați</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Korea<br>
+                                            <img class="medalie" src="../images/argint.png">ROC<br>
+                                            <img class="medalie" src="../images/bronz.png">Armenia</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Sol Femei</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">USA<br>
+                                            <img class="medalie" src="../images/argint.png">Italy<br>
+                                            <img class="medalie" src="../images/bronz.png">Japan, ROC</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Pararele Bărbați</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">China<br>
+                                            <img class="medalie" src="../images/argint.png">Germany<br>
+                                            <img class="medalie" src="../images/bronz.png">Turkey</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Bară Bărbați</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Japan<br>
+                                            <img class="medalie" src="../images/argint.png">Croatia<br>
+                                            <img class="medalie" src="../images/bronz.png">ROC</li></ul></td>
+                </tr>
+                <tr id="s4">
+                    <td class="cel-b"><ul><li>Bârnă Femei</li></ul></td>
+                    <td class="cel-b"><ul class="gab"><li><img class="medalie" src="../images/aur.png">China<br>
+                                                          <img class="medalie" src="../images/argint.png">China<br>
+                                                          <img class="medalie" src="../images/bronz.png">USA</li></ul></td>
+                </tr>
+                <tr>
+                    <td class="cel-b" rowspan="2"><img class="s-i" src="../images/s4.png"/><br>Înot artistic</td>
+                    <td class="cel-b" rowspan="2">02.08 - 07.08</td>
+                    <td><ul><li>Duet</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">ROC<br>
+                                            <img class="medalie" src="../images/argint.png">China<br>
+                                            <img class="medalie" src="../images/bronz.png">Ukraine</li></ul></td>
+                </tr>
+                <tr id="s5">
+                    <td class="cel-b"><ul><li>Echipa</li></ul></td>
+                    <td class="cel-b"><ul class="gab"><li><img class="medalie" src="../images/aur.png">ROC<br>
+                                                          <img class="medalie" src="../images/argint.png">China<br>
+                                                          <img class="medalie" src="../images/bronz.png">Ukraine</li></ul></td>
+                </tr>
+                <tr>
+                    <td class="cel-b" rowspan="48"><img class="s-i" src="../images/s5.png"/><br>Atletism</td>
+                    <td class="cel-b" rowspan="48">30.07 - 08.08</td>
+                    <td><ul><li>10000m Bărbați</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Ethiopia<br>
+                                            <img class="medalie" src="../images/argint.png">Uganda<br>
+                                            <img class="medalie" src="../images/bronz.png">Uganda</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Aruncarea discului Bărbați</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Sweden<br>
+                                            <img class="medalie" src="../images/argint.png">Sweden<br>
+                                            <img class="medalie" src="../images/bronz.png">Austria</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>100m Femei</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Jamaica<br>
+                                            <img class="medalie" src="../images/argint.png">Jamaica<br>
+                                            <img class="medalie" src="../images/bronz.png">Jamaica</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>4x400m Mixt</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Poland<br>
+                                            <img class="medalie" src="../images/argint.png">Dominican Republic<br>
+                                            <img class="medalie" src="../images/bronz.png">USA</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>100m Bărbați</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Italy<br>
+                                            <img class="medalie" src="../images/argint.png">USA<br>
+                                            <img class="medalie" src="../images/bronz.png">Canada</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Săritura în înălțime Bărbați</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Qatar<br>
+                                            <img class="medalie" src="../images/argint.png">Italy<br>
+                                            <img class="medalie" src="../images/bronz.png">Belarus</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Triplu salt Femei</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Venezuela<br>
+                                            <img class="medalie" src="../images/argint.png">Portugal<br>
+                                            <img class="medalie" src="../images/bronz.png">Spain</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Aruncarea greutății Femei</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">China<br>
+                                            <img class="medalie" src="../images/argint.png">USA<br>
+                                            <img class="medalie" src="../images/bronz.png">New Zealand</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>3000m obstacole Bărbați</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Morocco<br>
+                                            <img class="medalie" src="../images/argint.png">Ethiopia<br>
+                                            <img class="medalie" src="../images/bronz.png">Kenya</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Săritura în lungime Bărbați</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Greece<br>
+                                            <img class="medalie" src="../images/argint.png">Cuba<br>
+                                            <img class="medalie" src="../images/bronz.png">Cuba</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>5000m Femei</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Netherlands<br>
+                                            <img class="medalie" src="../images/argint.png">Kenya<br>
+                                            <img class="medalie" src="../images/bronz.png">Ethiopia</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>100m  garduri Femei</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Puerto Rico<br>
+                                            <img class="medalie" src="../images/argint.png">USA<br>
+                                            <img class="medalie" src="../images/bronz.png">Jamaica</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Aruncarea discului Femei</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">USA<br>
+                                            <img class="medalie" src="../images/argint.png">Germany<br>
+                                            <img class="medalie" src="../images/bronz.png">Cuba</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>400m garduri Bărbați</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Norway<br>
+                                            <img class="medalie" src="../images/argint.png">USA<br>
+                                            <img class="medalie" src="../images/bronz.png">Brazil</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Saritura cu prăjina Bărbați</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Sweden<br>
+                                            <img class="medalie" src="../images/argint.png">USA<br>
+                                            <img class="medalie" src="../images/bronz.png">Brazil</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>200m Femei</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Jamaica<br>
+                                            <img class="medalie" src="../images/argint.png">Namibia<br>
+                                            <img class="medalie" src="../images/bronz.png">USA</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>800m Femei</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">USA<br>
+                                            <img class="medalie" src="../images/argint.png">Great Britain<br>
+                                            <img class="medalie" src="../images/bronz.png">USA</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Săritura în lungime Femei</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Germany<br>
+                                            <img class="medalie" src="../images/argint.png">USA<br>
+                                            <img class="medalie" src="../images/bronz.png">Nigeria</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Aruncarea ciocanului Femei</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Poland<br>
+                                            <img class="medalie" src="../images/argint.png">China<br>
+                                            <img class="medalie" src="../images/bronz.png">Poland</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>200m Bărbați</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Canada<br>
+                                            <img class="medalie" src="../images/argint.png">USA<br>
+                                            <img class="medalie" src="../images/bronz.png">USA</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>800m Bărbați</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Kenya<br>
+                                            <img class="medalie" src="../images/argint.png">Kenya<br>
+                                            <img class="medalie" src="../images/bronz.png">Poland</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Aruncarea ciocanului Bărbați</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Poland<br>
+                                            <img class="medalie" src="../images/argint.png">Norway<br>
+                                            <img class="medalie" src="../images/bronz.png">Poland</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>3000m obstacole Femei</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Uganda<br>
+                                            <img class="medalie" src="../images/argint.png">USA<br>
+                                            <img class="medalie" src="../images/bronz.png">Kenya</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>400m  garduri Femei</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">USA<br>
+                                            <img class="medalie" src="../images/argint.png">USA<br>
+                                            <img class="medalie" src="../images/bronz.png">Netherlands</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>400m Bărbați</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Bahamas<br>
+                                            <img class="medalie" src="../images/argint.png">Colombia<br>
+                                            <img class="medalie" src="../images/bronz.png">Grenada</li></ul></td>
+                </tr> 
+                <tr>
+                    <td><ul><li>110m garduri Bărbați</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Jamaica<br>
+                                            <img class="medalie" src="../images/argint.png">USA<br>
+                                            <img class="medalie" src="../images/bronz.png">Jamaica</li></ul></td>
+                </tr> 
+                <tr>
+                    <td><ul><li>Triplu salt Bărbați</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Portugal<br>
+                                            <img class="medalie" src="../images/argint.png">China<br>
+                                            <img class="medalie" src="../images/bronz.png">Burkina Faso</li></ul></td>
+                </tr> 
+                <tr>
+                    <td><ul><li>Aruncarea greutății Bărbați</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">USA<br>
+                                            <img class="medalie" src="../images/argint.png">USA<br>
+                                            <img class="medalie" src="../images/bronz.png">New Zealand</li></ul></td>
+                </tr> 
+                <tr>
+                    <td><ul><li>Decatlon Bărbați</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Canada<br>
+                                            <img class="medalie" src="../images/argint.png">France<br>
+                                            <img class="medalie" src="../images/bronz.png">Australia</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>20km marș Bărbați</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Italy<br>
+                                            <img class="medalie" src="../images/argint.png">Japan<br>
+                                            <img class="medalie" src="../images/bronz.png">Japan</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Saritura cu prăjina Femei</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">USA<br>
+                                            <img class="medalie" src="../images/argint.png">ROC<br>
+                                            <img class="medalie" src="../images/bronz.png">Great Britain</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Heptatlon Femei</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Belgium<br>
+                                            <img class="medalie" src="../images/argint.png">Netherlands<br>
+                                            <img class="medalie" src="../images/bronz.png">Netherlands</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>5000m Bărbați</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Uganda<br>
+                                            <img class="medalie" src="../images/argint.png">Canada<br>
+                                            <img class="medalie" src="../images/bronz.png">USA</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>50km marș Bărbați</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Poland<br>
+                                            <img class="medalie" src="../images/argint.png">Germany<br>
+                                            <img class="medalie" src="../images/bronz.png">Canada</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>4x100m Bărbați</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Italy<br>
+                                            <img class="medalie" src="../images/argint.png">Great Britain<br>
+                                            <img class="medalie" src="../images/bronz.png">Canada</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>400m Femei</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Bahamas<br>
+                                            <img class="medalie" src="../images/argint.png">Dominican Republic<br>
+                                            <img class="medalie" src="../images/bronz.png">USA</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>1500m Femei</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Kenya<br>
+                                            <img class="medalie" src="../images/argint.png">Great Britain<br>
+                                            <img class="medalie" src="../images/bronz.png">Netherlands</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Aruncarea suliței Femei</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">China<br>
+                                            <img class="medalie" src="../images/argint.png">Poland<br>
+                                            <img class="medalie" src="../images/bronz.png">Australia</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>20km marș Femei</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Italy<br>
+                                            <img class="medalie" src="../images/argint.png">Colombia<br>
+                                            <img class="medalie" src="../images/bronz.png">China</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>4x100m Femei</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Jamaica<br>
+                                            <img class="medalie" src="../images/argint.png">USA<br>
+                                            <img class="medalie" src="../images/bronz.png">Great Britain</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>1500m Bărbați</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Norway<br>
+                                            <img class="medalie" src="../images/argint.png">Kenya<br>
+                                            <img class="medalie" src="../images/bronz.png">Great Britain</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Aruncarea suliței Bărbați</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">India<br>
+                                            <img class="medalie" src="../images/argint.png">Czech Republic<br>
+                                            <img class="medalie" src="../images/bronz.png">Czech Republic</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>4x400m Bărbați</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">USA<br>
+                                            <img class="medalie" src="../images/argint.png">Netherlands<br>
+                                            <img class="medalie" src="../images/bronz.png">Botswana</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>10000m Femei</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Netherlands<br>
+                                            <img class="medalie" src="../images/argint.png">Bahrain<br>
+                                            <img class="medalie" src="../images/bronz.png">Ethiopia</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Maraton Femei</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Kenya<br>
+                                            <img class="medalie" src="../images/argint.png">Kenya<br>
+                                            <img class="medalie" src="../images/bronz.png">USA</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Săritura în înălțime Femei</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">ROC<br>
+                                            <img class="medalie" src="../images/argint.png">Australia<br>
+                                            <img class="medalie" src="../images/bronz.png">Ukraine</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>4x400m Femei</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">USA<br>
+                                            <img class="medalie" src="../images/argint.png">Poland<br>
+                                            <img class="medalie" src="../images/bronz.png">Jamaica</li></ul></td>
+                </tr>
+                <tr id="s6">
+                    <td class="cel-b"><ul><li>Maraton Bărbați</li></ul></td>
+                    <td class="cel-b"><ul class="gab"><li><img class="medalie" src="../images/aur.png">Kenya<br>
+                                                          <img class="medalie" src="../images/argint.png">Netherlands<br>
+                                                          <img class="medalie" src="../images/bronz.png">Belgium</li></ul></td>
+                </tr>
+                <tr>
+                    <td class="cel-b" rowspan="5"><img class="s-i" src="../images/s6.png"/><br>Badminton</td>
+                    <td class="cel-b" rowspan="5">24.07 - 02.08</td>
+                    <td><ul><li>Dublu mixt</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">China<br>
+                                            <img class="medalie" src="../images/argint.png">China<br>
+                                            <img class="medalie" src="../images/bronz.png">Japan</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Dublu Bărbați</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Taipei<br>
+                                            <img class="medalie" src="../images/argint.png">China<br>
+                                            <img class="medalie" src="../images/bronz.png">Malaysia</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Simplu Femei</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">China<br>
+                                            <img class="medalie" src="../images/argint.png">Taipei<br>
+                                            <img class="medalie" src="../images/bronz.png">India</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Simplu Bărbați</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Denmark<br>
+                                            <img class="medalie" src="../images/argint.png">China<br>
+                                            <img class="medalie" src="../images/bronz.png">Indonesia</li></ul></td>
+                </tr>
+                <tr id="s7">
+                    <td class="cel-b"><ul><li>Dublu Femei</li></ul></td>
+                    <td class="cel-b"><ul class="gab"><li><img class="medalie" src="../images/aur.png">Indonesia<br>
+                                                          <img class="medalie" src="../images/argint.png">China<br>
+                                                          <img class="medalie" src="../images/bronz.png">Korea</li></ul></td>
+                </tr>
+                <tr>
+                    <td class="cel-b" rowspan="2"><img class="s-i" src="../images/s7.png"/><br>Baseball/Softball</td>
+                    <td class="cel-b" rowspan="2">21.07 - 07.08</td>
+                    <td><ul><li>Softball</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Japan<br>
+                                            <img class="medalie" src="../images/argint.png">USA<br>
+                                            <img class="medalie" src="../images/bronz.png">Canada</li></ul></td>
+                </tr>
+                <tr id="s8">
+                    <td class="cel-b"><ul><li>Baseball</li></ul></td>
+                    <td class="cel-b"><ul class="gab"><li><img class="medalie" src="../images/aur.png">Japan<br>
+                                                          <img class="medalie" src="../images/argint.png">USA<br>
+                                                          <img class="medalie" src="../images/bronz.png">Dominican Republic</li></ul></td>
+                </tr>
+                <tr>
+                    <td class="cel-b" rowspan="2"><img class="s-i" src="../images/s1.png"/><br>Basket</td>
+                    <td class="cel-b" rowspan="2">25.07 - 08.08</td>
+                    <td><ul><li>Bărbați</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">USA<br>
+                                            <img class="medalie" src="../images/argint.png">France<br>
+                                            <img class="medalie" src="../images/bronz.png">Australia</li></ul></td>
+                </tr>
+                <tr id="s9">
+                    <td class="cel-b"><ul><li>Femei</li></ul></td>
+                    <td class="cel-b"><ul class="gab"><li><img class="medalie" src="../images/aur.png">USA<br>
+                                                          <img class="medalie" src="../images/argint.png">Japan<br>
+                                                          <img class="medalie" src="../images/bronz.png">France</li></ul></td>
+                </tr>
+                <tr>
+                    <td class="cel-b" rowspan="2"><img class="s-i" src="../images/s8_1.png"/><br>Volei de plajă</td>
+                    <td class="cel-b" rowspan="2">24.07 - 07.08</td>
+                    <td><ul><li>Femei</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">USA<br>
+                                            <img class="medalie" src="../images/argint.png">Australia<br>
+                                            <img class="medalie" src="../images/bronz.png">Switzerland</li></ul></td>
+                </tr>
+                <tr id="s10">
+                    <td class="cel-b"><ul><li>Bărbați</li></ul></td>
+                    <td class="cel-b"><ul class="gab"><li><img class="medalie" src="../images/aur.png">Norway<br>
+                                                          <img class="medalie" src="../images/argint.png">ROC<br>
+                                                          <img class="medalie" src="../images/bronz.png">Qatar</li></ul></td>
+                </tr>
+                <tr>
+                    <td class="cel-b" rowspan="13"><img class="s-i" src="../images/s9.png"/><br>Box</td>
+                    <td class="cel-b" rowspan="13">24.07 - 08.08</td>
+                    <td><ul><li>Femei 54-57 kg</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Japan<br>
+                                            <img class="medalie" src="../images/argint.png">Philippines<br>
+                                            <img class="medalie" src="../images/bronz.png">Great Britain, Italy</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Bărbați 63-69 kg</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Cuba<br>
+                                            <img class="medalie" src="../images/argint.png">Great Britain<br>
+                                            <img class="medalie" src="../images/bronz.png">ROC, Ireland</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Bărbați 75-81 kg</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Cuba<br>
+                                            <img class="medalie" src="../images/argint.png">Great Britain<br>
+                                            <img class="medalie" src="../images/bronz.png">Azerbaijan, ROC</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Bărbați 52-57 kg</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">ROC<br>
+                                            <img class="medalie" src="../images/argint.png">USA<br>
+                                            <img class="medalie" src="../images/bronz.png">Cuba, Ghana</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Bărbați 81-91 kg</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Cuba<br>
+                                            <img class="medalie" src="../images/argint.png">ROC<br>
+                                            <img class="medalie" src="../images/bronz.png">Brazil, New Zealand</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Bărbați +91 kg</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Uzbekistan<br>
+                                            <img class="medalie" src="../images/argint.png">USA<br>
+                                            <img class="medalie" src="../images/bronz.png">Great Britain, Kazakhstan</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Femei 48-51 kg</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Bulgaria<br>
+                                            <img class="medalie" src="../images/argint.png">Turkey<br>
+                                            <img class="medalie" src="../images/bronz.png">Japan, Taipei</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Femei 64-69 kg</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Turkey<br>
+                                            <img class="medalie" src="../images/argint.png">China<br>
+                                            <img class="medalie" src="../images/bronz.png">India, USA</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Bărbați 48-52 kg</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Great Britain<br>
+                                            <img class="medalie" src="../images/argint.png">Philippines<br>
+                                            <img class="medalie" src="../images/bronz.png">Kazakhstan, Japan</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Bărbați 69-75 kg</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Brazil<br>
+                                            <img class="medalie" src="../images/argint.png">Ukraine<br>
+                                            <img class="medalie" src="../images/bronz.png">ROC, Philippines</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Femei 57-60 kg</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Ireland<br>
+                                            <img class="medalie" src="../images/argint.png">Brazil<br>
+                                            <img class="medalie" src="../images/bronz.png">Thailand, Finland</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Bărbați 57-63 kg</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Cuba<br>
+                                            <img class="medalie" src="../images/argint.png">USA<br>
+                                            <img class="medalie" src="../images/bronz.png">Australia, Armenia</li></ul></td>
+                </tr>
+                <tr id="s11">
+                    <td class="cel-b"><ul><li>Femei 69-75 kg</li></ul></td>
+                    <td class="cel-b"><ul class="gab"><li><img class="medalie" src="../images/aur.png">Great Britain<br>
+                                                          <img class="medalie" src="../images/argint.png">China<br>
+                                                          <img class="medalie" src="../images/bronz.png">Netherlands, ROC</li></ul></td>
+                </tr>
+                <tr>
+                    <td class="cel-b" rowspan="4"><img class="s-i" src="../images/s10_1.png"/><br>Canoe Slalom</td>
+                    <td class="cel-b" rowspan="4">25.07 - 30.07</td>
+                    <td><ul><li>Canoe Bărbați</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Slovenia<br>
+                                            <img class="medalie" src="../images/argint.png">Czech Republic<br>
+                                            <img class="medalie" src="../images/bronz.png">Germany</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Caiac Femei</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Germany<br>
+                                            <img class="medalie" src="../images/argint.png">Spain<br>
+                                            <img class="medalie" src="../images/bronz.png">Australia</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Canoe Femei</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Australia<br>
+                                            <img class="medalie" src="../images/argint.png">Great Britain<br>
+                                            <img class="medalie" src="../images/bronz.png">Germany</li></ul></td>
+                </tr>
+                <tr id="s12">
+                    <td class="cel-b"><ul><li>Caiac Bărbați</li></ul></td>
+                    <td class="cel-b"><ul class="gab"><li><img class="medalie" src="../images/aur.png">Czech Republic<br>
+                                                          <img class="medalie" src="../images/argint.png">Slovakia<br>
+                                                          <img class="medalie" src="../images/bronz.png">Germany</li></ul></td>
+                </tr>
+                <tr>
+                    <td class="cel-b" rowspan="12"><img class="s-i" src="../images/s10.png"/><br>Canoe Sprint</td>
+                    <td class="cel-b" rowspan="12">02.08 - 07.08</td>
+                    <td><ul><li>K-1 1000m Bărbați</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Hungary<br>
+                                            <img class="medalie" src="../images/argint.png">Hungary<br>
+                                            <img class="medalie" src="../images/bronz.png">Portugal</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>C-2 1000m Bărbați</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Cuba<br>
+                                            <img class="medalie" src="../images/argint.png">China<br>
+                                            <img class="medalie" src="../images/bronz.png">Germany</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>K-1 200m Femei</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">New Zealand<br>
+                                            <img class="medalie" src="../images/argint.png">Spain<br>
+                                            <img class="medalie" src="../images/bronz.png">Denmark</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>K-2 500m Femei</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">New Zealand<br>
+                                            <img class="medalie" src="../images/argint.png">Poland<br>
+                                            <img class="medalie" src="../images/bronz.png">Hungary</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>K-1 200m Bărbați</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Hungary<br>
+                                            <img class="medalie" src="../images/argint.png">Italy<br>
+                                            <img class="medalie" src="../images/bronz.png">Great Britain</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>K-2 1000m Bărbați</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Australia<br>
+                                            <img class="medalie" src="../images/argint.png">Germany<br>
+                                            <img class="medalie" src="../images/bronz.png">Czech Republic</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>K-1 500m Femei</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">New Zealand<br>
+                                            <img class="medalie" src="../images/argint.png">Hungary<br>
+                                            <img class="medalie" src="../images/bronz.png">Denmark</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>C-1 200m Femei</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">USA<br>
+                                            <img class="medalie" src="../images/argint.png">Canada<br>
+                                            <img class="medalie" src="../images/bronz.png">Ukraine</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>K-4 500m Bărbați</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Germany<br>
+                                            <img class="medalie" src="../images/argint.png">Spain<br>
+                                            <img class="medalie" src="../images/bronz.png">Slovakia</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>C-1 1000m Bărbați</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Brazil<br>
+                                            <img class="medalie" src="../images/argint.png">China<br>
+                                            <img class="medalie" src="../images/bronz.png"><b>Republic of Moldova</b></li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>K-4 500m Femei</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Hungary<br>
+                                            <img class="medalie" src="../images/argint.png">Belarus<br>
+                                            <img class="medalie" src="../images/bronz.png">Poland</li></ul></td>
+                </tr>
+                <tr id="s13">
+                    <td class="cel-b"><ul><li>C-2 500m Femei</li></ul></td>
+                    <td class="cel-b"><ul class="gab"><li><img class="medalie" src="../images/aur.png">China<br>
+                                                          <img class="medalie" src="../images/argint.png">Ukraine<br>
+                                                          <img class="medalie" src="../images/bronz.png">Canada</li></ul></td>
+                </tr>
+                <tr>
+                    <td class="cel-b" rowspan="2"><img class="s-i" src="../images/s12_1.png"/><br>Ciclism BMX Freestyle</td>
+                    <td class="cel-b" rowspan="2">31.07 - 01.08</td>
+                    <td><ul><li>Bărbați</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Australia<br>
+                                            <img class="medalie" src="../images/argint.png">Venezuela<br>
+                                            <img class="medalie" src="../images/bronz.png">Great Britain</li></ul></td>
+                </tr>
+                <tr id="s14">
+                    <td class="cel-b"><ul><li>Femei</li></ul></td>
+                    <td class="cel-b"><ul class="gab"><li><img class="medalie" src="../images/aur.png">Great Britain<br>
+                                                          <img class="medalie" src="../images/argint.png">USA<br>
+                                                          <img class="medalie" src="../images/bronz.png">Switzerland</li></ul></td>
+                </tr>
+                <tr>
+                    <td class="cel-b" rowspan="2"><img class="s-i" src="../images/s12_2.png"/><br>Ciclism BMX cursa</td>
+                    <td class="cel-b" rowspan="2">29.07 - 30.07</td>
+                    <td><ul><li>Bărbați</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Netherlands<br>
+                                            <img class="medalie" src="../images/argint.png">Great Britain<br>
+                                            <img class="medalie" src="../images/bronz.png">Colombia</li></ul></td>
+                </tr>
+                <tr id="s15">
+                    <td class="cel-b"><ul><li>Femei</li></ul></td>
+                    <td class="cel-b"><ul class="gab"><li><img class="medalie" src="../images/aur.png">Great Britain<br>
+                                                          <img class="medalie" src="../images/argint.png">Colombia<br>
+                                                          <img class="medalie" src="../images/bronz.png">Netherlands</li></ul></td>
+                </tr>
+                <tr>
+                    <td class="cel-b" rowspan="2"><img class="s-i" src="../images/s12_3.png"/><br>Ciclism de munte</td>
+                    <td class="cel-b" rowspan="2">26.07 - 27.07</td>
+                    <td><ul><li>Bărbați</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Great Britain<br>
+                                            <img class="medalie" src="../images/argint.png">Switzerland<br>
+                                            <img class="medalie" src="../images/bronz.png">Spain</li></ul></td>
+                </tr>
+                <tr id="s16">
+                    <td class="cel-b"><ul><li>Femei</li></ul></td>
+                    <td class="cel-b"><ul class="gab"><li><img class="medalie" src="../images/aur.png">Switzerland<br>
+                                                          <img class="medalie" src="../images/argint.png">Switzerland<br>
+                                                          <img class="medalie" src="../images/bronz.png">Switzerland</li></ul></td>
+                </tr>
+                <tr>
+                    <td class="cel-b" rowspan="4"><img class="s-i" src="../images/s12_4.png"/><br>Ciclism pe șosea</td>
+                    <td class="cel-b" rowspan="4">24.07 - 28.07</td>
+                    <td><ul><li>Bărbați</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Ecuador<br>
+                                            <img class="medalie" src="../images/argint.png">Belgium<br>
+                                            <img class="medalie" src="../images/bronz.png">Slovenia</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Femei</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Austria<br>
+                                            <img class="medalie" src="../images/argint.png">Netherlands<br>
+                                            <img class="medalie" src="../images/bronz.png">Italy</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Bărbați contratimp ind.</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Slovenia<br>
+                                            <img class="medalie" src="../images/argint.png">Netherlands<br>
+                                            <img class="medalie" src="../images/bronz.png">Australia</li></ul></td>
+                </tr>
+                <tr id="s17">
+                    <td class="cel-b"><ul><li>Femei contratimp ind.</li></ul></td>
+                    <td class="cel-b"><ul class="gab"><li><img class="medalie" src="../images/aur.png">Netherlands<br>
+                                                          <img class="medalie" src="../images/argint.png">Switzerland<br>
+                                                          <img class="medalie" src="../images/bronz.png">Netherlands</li></ul></td>
+                </tr>
+                <tr>
+                    <td class="cel-b" rowspan="12"><img class="s-i" src="../images/s12_5.png"/><br>Ciclism pe pistă</td>
+                    <td class="cel-b" rowspan="12">02.08 - 08.08</td>
+                    <td><ul><li>Echipa Femei Sprint</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">China<br>
+                                            <img class="medalie" src="../images/argint.png">Germany<br>
+                                            <img class="medalie" src="../images/bronz.png">ROC</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Echipa Bărbați Sprint</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Netherlands<br>
+                                            <img class="medalie" src="../images/argint.png">Great Britain<br>
+                                            <img class="medalie" src="../images/bronz.png">France</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Urmărire echipe Femei</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Germany<br>
+                                            <img class="medalie" src="../images/argint.png">Great Britain<br>
+                                            <img class="medalie" src="../images/bronz.png">USA</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Urmărire echipe Bărbați</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Italy<br>
+                                            <img class="medalie" src="../images/argint.png">Denmark<br>
+                                            <img class="medalie" src="../images/bronz.png">Australia</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Omnium Bărbați</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Great Britain<br>
+                                            <img class="medalie" src="../images/argint.png">New Zealand<br>
+                                            <img class="medalie" src="../images/bronz.png">Italy</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Keirin Femei</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Netherlands<br>
+                                            <img class="medalie" src="../images/argint.png">New Zealand<br>
+                                            <img class="medalie" src="../images/bronz.png">Canada</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Bărbați Sprint ind.</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Netherlands<br>
+                                            <img class="medalie" src="../images/argint.png">Netherlands<br>
+                                            <img class="medalie" src="../images/bronz.png">Great Britain</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Madison Femei</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Great Britain<br>
+                                            <img class="medalie" src="../images/argint.png">Denmark<br>
+                                            <img class="medalie" src="../images/bronz.png">ROC</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Madison Bărbați</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Denmark<br>
+                                            <img class="medalie" src="../images/argint.png">Great Britain<br>
+                                            <img class="medalie" src="../images/bronz.png">France</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Keirin Bărbați</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Great Britain<br>
+                                            <img class="medalie" src="../images/argint.png">Malaysia<br>
+                                            <img class="medalie" src="../images/bronz.png">Netherlands</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Femei Sprint ind.</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Canada<br>
+                                            <img class="medalie" src="../images/argint.png">Ukraine<br>
+                                            <img class="medalie" src="../images/bronz.png">Hong Kong</li></ul></td>
+                </tr>
+                <tr id="s18">
+                    <td class="cel-b"><ul><li>Omnium Femei</li></ul></td>
+                    <td class="cel-b"><ul class="gab"><li><img class="medalie" src="../images/aur.png">USA<br>
+                                                          <img class="medalie" src="../images/argint.png">Japan<br>
+                                                          <img class="medalie" src="../images/bronz.png">Netherlands</li></ul></td>
+                </tr>
+                <tr>
+                    <td class="cel-b" rowspan="8"><img class="s-i" src="../images/s13.png"/><br>Sărituri în apă</td>
+                    <td class="cel-b" rowspan="8">25.07 - 07.08</td>
+                    <td><ul><li>3m trambulină sincron Femei</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">China<br>
+                                            <img class="medalie" src="../images/argint.png">Canada<br>
+                                            <img class="medalie" src="../images/bronz.png">Germany</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>10m platformă sincron Bărbați</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Great Britain<br>
+                                            <img class="medalie" src="../images/argint.png">China<br>
+                                            <img class="medalie" src="../images/bronz.png">ROC</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>10m platformă sincron Femei</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">China<br>
+                                            <img class="medalie" src="../images/argint.png">USA<br>
+                                            <img class="medalie" src="../images/bronz.png">Mexico</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>3m trambulină sincron Bărbați</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">China<br>
+                                            <img class="medalie" src="../images/argint.png">USA<br>
+                                            <img class="medalie" src="../images/bronz.png">Germany</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>3m trambulină Femei</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">China<br>
+                                            <img class="medalie" src="../images/argint.png">China<br>
+                                            <img class="medalie" src="../images/bronz.png">USA</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>3m trambulină Bărbați</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">China<br>
+                                            <img class="medalie" src="../images/argint.png">China<br>
+                                            <img class="medalie" src="../images/bronz.png">Great Britain</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>10m platformă Femei</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">China<br>
+                                            <img class="medalie" src="../images/argint.png">China<br>
+                                            <img class="medalie" src="../images/bronz.png">Australia</li></ul></td>
+                </tr>
+                <tr id="s19">
+                    <td class="cel-b"><ul><li>10m platformă Bărbați</li></ul></td>
+                    <td class="cel-b"><ul class="gab"><li><img class="medalie" src="../images/aur.png">China<br>
+                                                          <img class="medalie" src="../images/argint.png">China<br>
+                                                          <img class="medalie" src="../images/bronz.png">Great Britain</li></ul></td>
+                </tr>
+                <tr>
+                    <td class="cel-b" rowspan="6"><img class="s-i" src="../images/s14.png"/><br>Echitație</td>
+                    <td class="cel-b" rowspan="6">23.07 - 07.08</td>
+                    <td><ul><li>Dresaj pe echipe</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Germany<br>
+                                            <img class="medalie" src="../images/argint.png">USA<br>
+                                            <img class="medalie" src="../images/bronz.png">Great Britain</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Dresaj ind.</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Germany<br>
+                                            <img class="medalie" src="../images/argint.png">Germany<br>
+                                            <img class="medalie" src="../images/bronz.png">Great Britain</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Întreceri pe echipe</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Great Britain<br>
+                                            <img class="medalie" src="../images/argint.png">Australia<br>
+                                            <img class="medalie" src="../images/bronz.png">France</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Întreceri ind.</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Germany<br>
+                                            <img class="medalie" src="../images/argint.png">Great Britain<br>
+                                            <img class="medalie" src="../images/bronz.png">Australia</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Sărituri ind.</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Great Britain<br>
+                                            <img class="medalie" src="../images/argint.png">Sweden<br>
+                                            <img class="medalie" src="../images/bronz.png">Netherlands</li></ul></td>
+                </tr>
+                <tr id="s20">
+                    <td class="cel-b"><ul><li>Sărituri pe echipe</li></ul></td>
+                    <td class="cel-b"><ul class="gab"><li><img class="medalie" src="../images/aur.png">Sweden<br>
+                                                          <img class="medalie" src="../images/argint.png">USA<br>
+                                                          <img class="medalie" src="../images/bronz.png">Belgium</li></ul></td>
+                </tr>
+                <tr>
+                    <td class="cel-b" rowspan="12"><img class="s-i" src="../images/s15.png"/><br>Scrimă</td>
+                    <td class="cel-b" rowspan="12">24.07 - 01.08</td>
+                    <td><ul><li>Șpadă ind. Femei</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">China<br>
+                                            <img class="medalie" src="../images/argint.png">Romania<br>
+                                            <img class="medalie" src="../images/bronz.png">Estonia</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Sabie ind. Bărbați</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Hungary<br>
+                                            <img class="medalie" src="../images/argint.png">Italy<br>
+                                            <img class="medalie" src="../images/bronz.png">Korea</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Floretă ind. Femei</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">USA<br>
+                                            <img class="medalie" src="../images/argint.png">ROC<br>
+                                            <img class="medalie" src="../images/bronz.png">ROC</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Șpadă ind. Bărbați</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">France<br>
+                                            <img class="medalie" src="../images/argint.png">Hungary<br>
+                                            <img class="medalie" src="../images/bronz.png">Ukraine</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Sabie ind. Femei</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">ROC<br>
+                                            <img class="medalie" src="../images/argint.png">ROC<br>
+                                            <img class="medalie" src="../images/bronz.png">France</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Floretă ind. Bărbați</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Hong Kong<br>
+                                            <img class="medalie" src="../images/argint.png">Italy<br>
+                                            <img class="medalie" src="../images/bronz.png">Czech Republic</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Șpadă echipa Femei</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Estonia<br>
+                                            <img class="medalie" src="../images/argint.png">Korea<br>
+                                            <img class="medalie" src="../images/bronz.png">Italy</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Sabie echipa Bărbați</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Korea<br>
+                                            <img class="medalie" src="../images/argint.png">Italy<br>
+                                            <img class="medalie" src="../images/bronz.png">Hungary</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Floretă echipa Femei</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">ROC<br>
+                                            <img class="medalie" src="../images/argint.png">France<br>
+                                            <img class="medalie" src="../images/bronz.png">Italy</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Șpadă echipa Bărbați</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Japan<br>
+                                            <img class="medalie" src="../images/argint.png">ROC<br>
+                                            <img class="medalie" src="../images/bronz.png">Korea</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Sabie echipa Femei</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">ROC<br>
+                                            <img class="medalie" src="../images/argint.png">France<br>
+                                            <img class="medalie" src="../images/bronz.png">Korea</li></ul></td>
+                </tr>
+                <tr id="s21">
+                    <td class="cel-b"><ul><li>Floretă echipa Bărbați</li></ul></td>
+                    <td class="cel-b"><ul class="gab"><li><img class="medalie" src="../images/aur.png">France<br>
+                                                          <img class="medalie" src="../images/argint.png">ROC<br>
+                                                          <img class="medalie" src="../images/bronz.png">USA</li></ul></td>
+                </tr>
+                <tr>
+                    <td class="cel-b" rowspan="2"><img class="s-i" src="../images/s16.png"/><br>Fotbal</td>
+                    <td class="cel-b" rowspan="2">21.07 - 07.08</td>
+                    <td><ul><li>Femei</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Canada<br>
+                                            <img class="medalie" src="../images/argint.png">Sweden<br>
+                                            <img class="medalie" src="../images/bronz.png">USA</li></ul></td>
+                </tr>
+                <tr id="s22">
+                    <td class="cel-b"><ul><li>Bărbați</li></ul></td>
+                    <td class="cel-b"><ul class="gab"><li><img class="medalie" src="../images/aur.png">Brazil<br>
+                                                          <img class="medalie" src="../images/argint.png">Spain<br>
+                                                          <img class="medalie" src="../images/bronz.png">Mexico</li></ul></td>
+                </tr>
+                <tr>
+                    <td class="cel-b" rowspan="2"><img class="s-i" src="../images/s17.png"/><br>Golf</td>
+                    <td class="cel-b" rowspan="2">29.07 - 07.08</td>
+                    <td><ul><li>Bărbați</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">USA<br>
+                                            <img class="medalie" src="../images/argint.png">Slovakia<br>
+                                            <img class="medalie" src="../images/bronz.png">Taipei</li></ul></td>
+                </tr>
+                <tr id="s23">
+                    <td class="cel-b"><ul><li>Femei</li></ul></td>
+                    <td class="cel-b"><ul class="gab"><li><img class="medalie" src="../images/aur.png">USA<br>
+                                                          <img class="medalie" src="../images/argint.png">Japan<br>
+                                                          <img class="medalie" src="../images/bronz.png">New Zealand</li></ul></td>
+                </tr>
+                <tr>
+                    <td class="cel-b" rowspan="2"><img class="s-i" src="../images/s18.png"/><br>Handbal</td>
+                    <td class="cel-b" rowspan="2">24.07 - 08.08</td>
+                    <td><ul><li>Bărbați</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">France<br>
+                                            <img class="medalie" src="../images/argint.png">Denmark<br>
+                                            <img class="medalie" src="../images/bronz.png">Spain</li></ul></td>
+                </tr>
+                <tr id="s24">
+                    <td class="cel-b"><ul><li>Femei</li></ul></td>
+                    <td class="cel-b"><ul class="gab"><li><img class="medalie" src="../images/aur.png">France<br>
+                                                          <img class="medalie" src="../images/argint.png">ROC<br>
+                                                          <img class="medalie" src="../images/bronz.png">Norway</li></ul></td>
+                </tr>
+                <tr>
+                    <td class="cel-b" rowspan="2"><img class="s-i" src="../images/s19.png"/><br>Hochei pe iarbă</td>
+                    <td class="cel-b" rowspan="2">24.07 - 06.08</td>
+                    <td><ul><li>Bărbați</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Belgium<br>
+                                            <img class="medalie" src="../images/argint.png">Australia<br>
+                                            <img class="medalie" src="../images/bronz.png">India</li></ul></td>
+                </tr>
+                <tr id="s25">
+                    <td class="cel-b"><ul><li>Femei</li></ul></td>
+                    <td class="cel-b"><ul class="gab"><li><img class="medalie" src="../images/aur.png">Netherlands<br>
+                                                          <img class="medalie" src="../images/argint.png">Argentina<br>
+                                                          <img class="medalie" src="../images/bronz.png">Great Britain</li></ul></td>
+                </tr>
+                <tr>
+                    <td class="cel-b" rowspan="15"><img class="s-i" src="../images/s20.png"/><br>Judo</td>
+                    <td class="cel-b" rowspan="15">24.07 - 31.07</td>
+                    <td><ul><li>Femei 48kg</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Kosovo<br>
+                                            <img class="medalie" src="../images/argint.png">Japan<br>
+                                            <img class="medalie" src="../images/bronz.png">Ukraine</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Bărbați 60kg</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Japan<br>
+                                            <img class="medalie" src="../images/argint.png">Taipei<br>
+                                            <img class="medalie" src="../images/bronz.png">Kazakhstan</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Femei 52kg</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Japan<br>
+                                            <img class="medalie" src="../images/argint.png">France<br>
+                                            <img class="medalie" src="../images/bronz.png">Italy, Great Britain</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Bărbați 66kg</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Japan<br>
+                                            <img class="medalie" src="../images/argint.png">Georgia<br>
+                                            <img class="medalie" src="../images/bronz.png">Korea, Brazil</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Femei 57kg</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Kosovo<br>
+                                            <img class="medalie" src="../images/argint.png">France<br>
+                                            <img class="medalie" src="../images/bronz.png">Japan, Canada</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Bărbați 73kg</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Japan<br>
+                                            <img class="medalie" src="../images/argint.png">Georgia<br>
+                                            <img class="medalie" src="../images/bronz.png">Korea, Mongolia</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Femei 63kg</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">France<br>
+                                            <img class="medalie" src="../images/argint.png">Slovenia<br>
+                                            <img class="medalie" src="../images/bronz.png">Italy, Canada</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Bărbați 81kg</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Japan<br>
+                                            <img class="medalie" src="../images/argint.png">Mongolia<br>
+                                            <img class="medalie" src="../images/bronz.png">Austria, Belgium</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Femei 70kg</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Japan<br>
+                                            <img class="medalie" src="../images/argint.png">Austria<br>
+                                            <img class="medalie" src="../images/bronz.png">ROC, Netherlands</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Bărbați 90kg</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Georgia<br>
+                                            <img class="medalie" src="../images/argint.png">Germany<br>
+                                            <img class="medalie" src="../images/bronz.png">Uzbekistan, Hungary</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Femei 78kg</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Japan<br>
+                                            <img class="medalie" src="../images/argint.png">France<br>
+                                            <img class="medalie" src="../images/bronz.png">Germany, Brazil</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Bărbați 100kg</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Japan<br>
+                                            <img class="medalie" src="../images/argint.png">Korea<br>
+                                            <img class="medalie" src="../images/bronz.png">Portugal, ROC</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Femei +78kg</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Japan<br>
+                                            <img class="medalie" src="../images/argint.png">Cuba<br>
+                                            <img class="medalie" src="../images/bronz.png">Azerbaijan, France</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Bărbați +100kg</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Czech Republic<br>
+                                            <img class="medalie" src="../images/argint.png">Georgia<br>
+                                            <img class="medalie" src="../images/bronz.png">France, ROC</li></ul></td>
+                </tr>
+                <tr id="s26">
+                    <td class="cel-b"><ul><li>Echipe</li></ul></td>
+                    <td class="cel-b"><ul class="gab"><li><img class="medalie" src="../images/aur.png">France<br>
+                                                          <img class="medalie" src="../images/argint.png">Japan<br>
+                                                          <img class="medalie" src="../images/bronz.png">Germany, Israel</li></ul></td>
+                </tr>
+                <tr>
+                    <td class="cel-b" rowspan="8"><img class="s-i" src="../images/s21.png"/><br>Karate</td>
+                    <td class="cel-b" rowspan="8">05.08 - 07.08</td>
+                    <td><ul><li>Femei Kata</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Spain<br>
+                                            <img class="medalie" src="../images/argint.png">Japan<br>
+                                            <img class="medalie" src="../images/bronz.png">Hong Kong, Italy</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Femei 55kg</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Bulgaria<br>
+                                            <img class="medalie" src="../images/argint.png">Ukraine<br>
+                                            <img class="medalie" src="../images/bronz.png">Austria, Taipei</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Bărbați 67kg</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">France<br>
+                                            <img class="medalie" src="../images/argint.png">Turkey<br>
+                                            <img class="medalie" src="../images/bronz.png">Kazakhstan, Jordan</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Bărbați Kata</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Japan<br>
+                                            <img class="medalie" src="../images/argint.png">Spain<br>
+                                            <img class="medalie" src="../images/bronz.png">Turkey, USA</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Femei 61kg</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Serbia<br>
+                                            <img class="medalie" src="../images/argint.png">China<br>
+                                            <img class="medalie" src="../images/bronz.png">Turkey, Egypt</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Bărbați 75kg</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Italy<br>
+                                            <img class="medalie" src="../images/argint.png">Azerbaijan<br>
+                                            <img class="medalie" src="../images/bronz.png">Ukraine, Hungary</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Femei +61kg</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Egypt<br>
+                                            <img class="medalie" src="../images/argint.png">Azerbaijan<br>
+                                            <img class="medalie" src="../images/bronz.png">Kazakhstan, China</li></ul></td>
+                </tr>
+                <tr id="s27">
+                    <td class="cel-b"><ul><li>Bărbați +75kg</li></ul></td>
+                    <td class="cel-b"><ul class="gab"><li><img class="medalie" src="../images/aur.png">Iran<br>
+                                                          <img class="medalie" src="../images/argint.png">Saudi Arabia<br>
+                                                          <img class="medalie" src="../images/bronz.png">Turkey, Japan</li></ul></td>
+                </tr>
+                <tr>
+                    <td class="cel-b" rowspan="2"><img class="s-i" src="../images/s22_1.png"/><br>Natație maraton</td>
+                    <td class="cel-b" rowspan="2">04.08 - 05.08</td>
+                    <td><ul><li>Femei 10km</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Brazil<br>
+                                            <img class="medalie" src="../images/argint.png">Netherlands<br>
+                                            <img class="medalie" src="../images/bronz.png">Australia</li></ul></td>
+                </tr>
+                <tr id="s28">
+                    <td class="cel-b"><ul><li>Bărbați 10km</li></ul></td>
+                    <td class="cel-b"><ul class="gab"><li><img class="medalie" src="../images/aur.png">Germany<br>
+                                                          <img class="medalie" src="../images/argint.png">Hungary<br>
+                                                          <img class="medalie" src="../images/bronz.png">Italy</li></ul></td>
+                </tr>
+                <tr>
+                    <td class="cel-b" rowspan="2"><img class="s-i" src="../images/s23.png"/><br>Pentatlon modern</td>
+                    <td class="cel-b" rowspan="2">05.08 - 07.08</td>
+                    <td><ul><li>Femei ind.</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Great Britain<br>
+                                            <img class="medalie" src="../images/argint.png">Lithuania<br>
+                                            <img class="medalie" src="../images/bronz.png">Hungary</li></ul></td>
+                </tr>
+                <tr id="s29">
+                    <td class="cel-b"><ul><li>Bărbați ind.</li></ul></td>
+                    <td class="cel-b"><ul class="gab"><li><img class="medalie" src="../images/aur.png">Great Britain<br>
+                                                          <img class="medalie" src="../images/argint.png">Egypt<br>
+                                                          <img class="medalie" src="../images/bronz.png">Korea</li></ul></td>
+                </tr>
+                <tr>
+                    <td class="cel-b" rowspan="2"><img class="s-i" src="../images/s3.png"/><br>Gimnastică ritmică</td>
+                    <td class="cel-b" rowspan="2">06.08 - 08.08</td>
+                    <td><ul><li>Individual</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Israel<br>
+                                            <img class="medalie" src="../images/argint.png">ROC<br>
+                                            <img class="medalie" src="../images/bronz.png">Belarus</li></ul></td>
+                </tr>
+                <tr id="s30">
+                    <td class="cel-b"><ul><li>Echipa</li></ul></td>
+                    <td class="cel-b"><ul class="gab"><li><img class="medalie" src="../images/aur.png">Bulgaria<br>
+                                                          <img class="medalie" src="../images/argint.png">ROC<br>
+                                                          <img class="medalie" src="../images/bronz.png">Italy</li></ul></td>
+                </tr>
+                <tr>
+                    <td class="cel-b" rowspan="14"><img class="s-i" src="../images/s11.png"/><br>Canotaj</td>
+                    <td class="cel-b" rowspan="14">23.07 - 30.07</td>
+                    <td><ul><li>Patru rame fără cârmaci Femei</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">China<br>
+                                            <img class="medalie" src="../images/argint.png">Poland<br>
+                                            <img class="medalie" src="../images/bronz.png">Australia</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Patru rame fără cârmaci Bărbați</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Netherlands<br>
+                                            <img class="medalie" src="../images/argint.png">Great Britain<br>
+                                            <img class="medalie" src="../images/bronz.png">Australia</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Dublu rame Femei</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Romania<br>
+                                            <img class="medalie" src="../images/argint.png">New Zealand<br>
+                                            <img class="medalie" src="../images/bronz.png">Netherlands</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Dublu rame Bărbați</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">France<br>
+                                            <img class="medalie" src="../images/argint.png">Netherlands<br>
+                                            <img class="medalie" src="../images/bronz.png">China</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Patru vâsle Femei</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Australia<br>
+                                            <img class="medalie" src="../images/argint.png">Netherlands<br>
+                                            <img class="medalie" src="../images/bronz.png">Ireland</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Patru vâsle Bărbați</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Australia<br>
+                                            <img class="medalie" src="../images/argint.png">Romania<br>
+                                            <img class="medalie" src="../images/bronz.png">Italy</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Dublu vâsle Femei</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">New Zealand<br>
+                                            <img class="medalie" src="../images/argint.png">ROC<br>
+                                            <img class="medalie" src="../images/bronz.png">Canada</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Dublu vâsle Bărbați</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Croatia<br>
+                                            <img class="medalie" src="../images/argint.png">Romania<br>
+                                            <img class="medalie" src="../images/bronz.png">Denmark</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Dublu vâsle Femei c. ușoară</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Italy<br>
+                                            <img class="medalie" src="../images/argint.png">France<br>
+                                            <img class="medalie" src="../images/bronz.png">Netherlands</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Dublu vâsle Bărbați c. ușoară</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Ireland<br>
+                                            <img class="medalie" src="../images/argint.png">Germany<br>
+                                            <img class="medalie" src="../images/bronz.png">Italy</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Simplu vâsle Femei</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">New Zealand<br>
+                                            <img class="medalie" src="../images/argint.png">ROC<br>
+                                            <img class="medalie" src="../images/bronz.png">Austria</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Simplu vâsle Bărbați</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Greece<br>
+                                            <img class="medalie" src="../images/argint.png">Norway<br>
+                                            <img class="medalie" src="../images/bronz.png">Croatia</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Opt rame cu cârmaci Femei</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Canada<br>
+                                            <img class="medalie" src="../images/argint.png">New Zealand<br>
+                                            <img class="medalie" src="../images/bronz.png">China</li></ul></td>
+                </tr>
+                <tr id="s31">
+                    <td class="cel-b"><ul><li>Opt rame cu cârmaci Bărbați</li></ul></td>
+                    <td class="cel-b"><ul class="gab"><li><img class="medalie" src="../images/aur.png">New Zealand<br>
+                                                          <img class="medalie" src="../images/argint.png">Germany<br>
+                                                          <img class="medalie" src="../images/bronz.png">Great Britain</li></ul></td>
+                </tr>
+                <tr>
+                    <td class="cel-b" rowspan="2"><img class="s-i" src="../images/s25.png"/><br>Rugby în VII</td>
+                    <td class="cel-b" rowspan="2">26.07 - 31.07</td>
+                    <td><ul><li>Bărbați</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Fiji<br>
+                                            <img class="medalie" src="../images/argint.png">New Zealand<br>
+                                            <img class="medalie" src="../images/bronz.png">Argentina</li></ul></td>
+                </tr>
+                <tr id="s32">
+                    <td class="cel-b"><ul><li>Femei</li></ul></td>
+                    <td class="cel-b"><ul class="gab"><li><img class="medalie" src="../images/aur.png">New Zealand<br>
+                                                          <img class="medalie" src="../images/argint.png">France<br>
+                                                          <img class="medalie" src="../images/bronz.png">Fiji</li></ul></td>
+                </tr>
+                <tr>
+                    <td class="cel-b" rowspan="10"><img class="s-i" src="../images/s26.png"/><br>Navigație</td>
+                    <td class="cel-b" rowspan="10">25.07 - 04.08</td>
+                    <td><ul><li>Bărbați RS:X</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Netherlands<br>
+                                            <img class="medalie" src="../images/argint.png">France<br>
+                                            <img class="medalie" src="../images/bronz.png">China</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Femei RS:X</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">China<br>
+                                            <img class="medalie" src="../images/argint.png">France<br>
+                                            <img class="medalie" src="../images/bronz.png">Great Britain</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Bărbați Laser</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Australia<br>
+                                            <img class="medalie" src="../images/argint.png">Croatia<br>
+                                            <img class="medalie" src="../images/bronz.png">Norway</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Femei Laser Radial</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Denmark<br>
+                                            <img class="medalie" src="../images/argint.png">Sweden<br>
+                                            <img class="medalie" src="../images/bronz.png">Netherlands</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Bărbați 49er</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Great Britain<br>
+                                            <img class="medalie" src="../images/argint.png">New Zealand<br>
+                                            <img class="medalie" src="../images/bronz.png">Germany</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Femei 49er FX</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Brazil<br>
+                                            <img class="medalie" src="../images/argint.png">Germany<br>
+                                            <img class="medalie" src="../images/bronz.png">Netherlands</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Bărbați Finn</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Great Britain<br>
+                                            <img class="medalie" src="../images/argint.png">Hungary<br>
+                                            <img class="medalie" src="../images/bronz.png">Spain</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Mixt Nacra 17</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Italy<br>
+                                            <img class="medalie" src="../images/argint.png">Great Britain<br>
+                                            <img class="medalie" src="../images/bronz.png">Germany</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Bărbați Dublu 470</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Australia<br>
+                                            <img class="medalie" src="../images/argint.png">Sweden<br>
+                                            <img class="medalie" src="../images/bronz.png">Spain</li></ul></td>
+                </tr>
+                <tr id="s33">
+                    <td class="cel-b"><ul><li>Femei Dublu 470</li></ul></td>
+                    <td class="cel-b"><ul class="gab"><li><img class="medalie" src="../images/aur.png">Great Britain<br>
+                                                          <img class="medalie" src="../images/argint.png">Poland<br>
+                                                          <img class="medalie" src="../images/bronz.png">France</li></ul></td>
+                </tr>
+                <tr>
+                    <td class="cel-b" rowspan="15"><img class="s-i" src="../images/s27.png"/><br>Tir</td>
+                    <td class="cel-b" rowspan="15">22.07 - 02.08</td>
+                    <td><ul><li>10m Pisol cu aer Bărbați</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Iran<br>
+                                            <img class="medalie" src="../images/argint.png">Serbia<br>
+                                            <img class="medalie" src="../images/bronz.png">China</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>10m Pușcă cu aer Femei</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">China<br>
+                                            <img class="medalie" src="../images/argint.png">ROC<br>
+                                            <img class="medalie" src="../images/bronz.png">Switzerland</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>10m Pușcă cu aer Bărbați</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">USA<br>
+                                            <img class="medalie" src="../images/argint.png">China<br>
+                                            <img class="medalie" src="../images/bronz.png">China</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>10m Pisol cu aer Femei</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">ROC<br>
+                                            <img class="medalie" src="../images/argint.png">Bulgaria<br>
+                                            <img class="medalie" src="../images/bronz.png">China</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Skeet Bărbați</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">USA<br>
+                                            <img class="medalie" src="../images/argint.png">Denmark<br>
+                                            <img class="medalie" src="../images/bronz.png">Kuwait</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Skeet Femei</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">USA<br>
+                                            <img class="medalie" src="../images/argint.png">Italy<br>
+                                            <img class="medalie" src="../images/bronz.png">China</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>10m Pușcă cu aer Echipa mixtă</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">China<br>
+                                            <img class="medalie" src="../images/argint.png">USA<br>
+                                            <img class="medalie" src="../images/bronz.png">ROC</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>10m Pisol cu aer Echipa mixtă</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">China<br>
+                                            <img class="medalie" src="../images/argint.png">ROC<br>
+                                            <img class="medalie" src="../images/bronz.png">Ukraine</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Trap Bărbați</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Czech Republic<br>
+                                            <img class="medalie" src="../images/argint.png">Czech Republic<br>
+                                            <img class="medalie" src="../images/bronz.png">Great Britain</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Trap Femei</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Slovakia<br>
+                                            <img class="medalie" src="../images/argint.png">USA<br>
+                                            <img class="medalie" src="../images/bronz.png">San Marino</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>25m Pistol foc rapid Femei</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">ROC<br>
+                                            <img class="medalie" src="../images/argint.png">Korea<br>
+                                            <img class="medalie" src="../images/bronz.png">China</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>50m Pușcă 3 poziții Femei</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Switzerland<br>
+                                            <img class="medalie" src="../images/argint.png">ROC<br>
+                                            <img class="medalie" src="../images/bronz.png">ROC</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Trap Echipa mixtă</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Spain<br>
+                                            <img class="medalie" src="../images/argint.png">San Marino<br>
+                                            <img class="medalie" src="../images/bronz.png">USA</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>50m Pușcă 3 poziții Bărbați</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">China<br>
+                                            <img class="medalie" src="../images/argint.png">ROC<br>
+                                            <img class="medalie" src="../images/bronz.png">Serbia</li></ul></td>
+                </tr>
+                <tr id="s34">
+                    <td class="cel-b"><ul><li>25m Pistol foc rapid Bărbați</li></ul></td>
+                    <td class="cel-b"><ul class="gab"><li><img class="medalie" src="../images/aur.png">France<br>
+                                                          <img class="medalie" src="../images/argint.png">Cuba<br>
+                                                          <img class="medalie" src="../images/bronz.png">China</li></ul></td>
+                </tr>
+                <tr>
+                    <td class="cel-b" rowspan="4"><img class="s-i" src="../images/s28.png"/><br>Scateboarding</td>
+                    <td class="cel-b" rowspan="4">25.07 - 05.08</td>
+                    <td><ul><li>Street Bărbați</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Japan<br>
+                                            <img class="medalie" src="../images/argint.png">Brazil<br>
+                                            <img class="medalie" src="../images/bronz.png">USA</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Street Femei</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Japan<br>
+                                            <img class="medalie" src="../images/argint.png">Brazil<br>
+                                            <img class="medalie" src="../images/bronz.png">Japan</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Park Femei</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Japan<br>
+                                            <img class="medalie" src="../images/argint.png">Japan<br>
+                                            <img class="medalie" src="../images/bronz.png">Great Britain</li></ul></td>
+                </tr>
+                <tr id="s35">
+                    <td class="cel-b"><ul><li>Park Bărbați</li></ul></td>
+                    <td class="cel-b"><ul class="gab"><li><img class="medalie" src="../images/aur.png">Australia<br>
+                                                          <img class="medalie" src="../images/argint.png">Brazil<br>
+                                                          <img class="medalie" src="../images/bronz.png">USA</li></ul></td>
+                </tr>
+                <tr>
+                    <td class="cel-b" rowspan="2"><img class="s-i" src="../images/s29.png"/><br>Alpinism sportiv</td>
+                    <td class="cel-b" rowspan="2">03.08 - 06.08</td>
+                    <td><ul><li>Bărbați</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Spain<br>
+                                            <img class="medalie" src="../images/argint.png">USA<br>
+                                            <img class="medalie" src="../images/bronz.png">Austria</li></ul></td>
+                </tr>
+                <tr id="s36">
+                    <td class="cel-b"><ul><li>Femei</li></ul></td>
+                    <td class="cel-b"><ul class="gab"><li><img class="medalie" src="../images/aur.png">Slovenia<br>
+                                                          <img class="medalie" src="../images/argint.png">Japan<br>
+                                                          <img class="medalie" src="../images/bronz.png">Japan</li></ul></td>
+                </tr>
+                <tr>
+                    <td class="cel-b" rowspan="2"><img class="s-i" src="../images/s28_1.png"/><br>Surfing</td>
+                    <td class="cel-b" rowspan="2">25.07 - 27.07</td>
+                    <td><ul><li>Bărbați</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Brazil<br>
+                                            <img class="medalie" src="../images/argint.png">Japan<br>
+                                            <img class="medalie" src="../images/bronz.png">Australia</li></ul></td>
+                </tr>
+                <tr id="s37">
+                    <td class="cel-b"><ul><li>Femei</li></ul></td>
+                    <td class="cel-b"><ul class="gab"><li><img class="medalie" src="../images/aur.png">USA<br>
+                                                          <img class="medalie" src="../images/argint.png">South Africa<br>
+                                                          <img class="medalie" src="../images/bronz.png">Japan</li></ul></td>
+                </tr>
+                <tr>
+                    <td class="cel-b" rowspan="35"><img class="s-i" src="../images/s22.png"/><br>Înot</td>
+                    <td class="cel-b" rowspan="35">24.07 - 01.08</td>
+                    <td><ul><li>400m mixt Femei</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Japan<br>
+                                            <img class="medalie" src="../images/argint.png">USA<br>
+                                            <img class="medalie" src="../images/bronz.png">USA</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>400m liber Bărbați</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Tunisia<br>
+                                            <img class="medalie" src="../images/argint.png">Australia<br>
+                                            <img class="medalie" src="../images/bronz.png">USA</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>400m mixt Bărbați</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">USA<br>
+                                            <img class="medalie" src="../images/argint.png">USA<br>
+                                            <img class="medalie" src="../images/bronz.png">Australia</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>4x100m liber Femei</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Australia<br>
+                                            <img class="medalie" src="../images/argint.png">Canada<br>
+                                            <img class="medalie" src="../images/bronz.png">USA</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>400m liber Femei</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Australia<br>
+                                            <img class="medalie" src="../images/argint.png">USA<br>
+                                            <img class="medalie" src="../images/bronz.png">China</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>100m fluture Femei</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Canada<br>
+                                            <img class="medalie" src="../images/argint.png">China<br>
+                                            <img class="medalie" src="../images/bronz.png">Australia</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>100m bras Bărbați</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Great Britain<br>
+                                            <img class="medalie" src="../images/argint.png">Netherlands<br>
+                                            <img class="medalie" src="../images/bronz.png">Italy</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>4x100m liber Bărbați</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">USA<br>
+                                            <img class="medalie" src="../images/argint.png">Italy<br>
+                                            <img class="medalie" src="../images/bronz.png">Australia</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>100m spate Femei</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Australia<br>
+                                            <img class="medalie" src="../images/argint.png">Canada<br>
+                                            <img class="medalie" src="../images/bronz.png">USA</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>100m bras Femei</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">USA<br>
+                                            <img class="medalie" src="../images/argint.png">South Africa<br>
+                                            <img class="medalie" src="../images/bronz.png">USA</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>200m liber Bărbați</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Great Britain<br>
+                                            <img class="medalie" src="../images/argint.png">Great Britain<br>
+                                            <img class="medalie" src="../images/bronz.png">Brazil</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>100m spate Bărbați</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">ROC<br>
+                                            <img class="medalie" src="../images/argint.png">ROC<br>
+                                            <img class="medalie" src="../images/bronz.png">USA</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>200m liber Femei</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Australia<br>
+                                            <img class="medalie" src="../images/argint.png">Hong Kong<br>
+                                            <img class="medalie" src="../images/bronz.png">Canada</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>1500m liber Femei</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">USA<br>
+                                            <img class="medalie" src="../images/argint.png">USA<br>
+                                            <img class="medalie" src="../images/bronz.png">Germany</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>200m mixt Femei</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Japan<br>
+                                            <img class="medalie" src="../images/argint.png">USA<br>
+                                            <img class="medalie" src="../images/bronz.png">USA</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>200m fluture Bărbați</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Hungary<br>
+                                            <img class="medalie" src="../images/argint.png">Japan<br>
+                                            <img class="medalie" src="../images/bronz.png">Italy</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>4x200m liber Bărbați</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Great Britain<br>
+                                            <img class="medalie" src="../images/argint.png">ROC<br>
+                                            <img class="medalie" src="../images/bronz.png">Australia</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>200m fluture Femei</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">China<br>
+                                            <img class="medalie" src="../images/argint.png">USA<br>
+                                            <img class="medalie" src="../images/bronz.png">USA</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>4x200m liber Femei</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">China<br>
+                                            <img class="medalie" src="../images/argint.png">USA<br>
+                                            <img class="medalie" src="../images/bronz.png">Australia</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>100m liber Bărbați</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">USA<br>
+                                            <img class="medalie" src="../images/argint.png">Australia<br>
+                                            <img class="medalie" src="../images/bronz.png">ROC</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>800m liber Bărbați</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">USA<br>
+                                            <img class="medalie" src="../images/argint.png">Italy<br>
+                                            <img class="medalie" src="../images/bronz.png">Ukraine</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>200m bras Bărbați</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Australia<br>
+                                            <img class="medalie" src="../images/argint.png">Netherlands<br>
+                                            <img class="medalie" src="../images/bronz.png">Finland</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>100m liber Femei</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Australia<br>
+                                            <img class="medalie" src="../images/argint.png">Hong Kong<br>
+                                            <img class="medalie" src="../images/bronz.png">Australia</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>200m bras Femei</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">South Africa<br>
+                                            <img class="medalie" src="../images/argint.png">USA<br>
+                                            <img class="medalie" src="../images/bronz.png">USA</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>200m spate Bărbați</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">ROC<br>
+                                            <img class="medalie" src="../images/argint.png">USA<br>
+                                            <img class="medalie" src="../images/bronz.png">Great Britain</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>200m mixt Bărbați</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">China<br>
+                                            <img class="medalie" src="../images/argint.png">Great Britain<br>
+                                            <img class="medalie" src="../images/bronz.png">Switzerland</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>800m liber Femei</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">USA<br>
+                                            <img class="medalie" src="../images/argint.png">Australia<br>
+                                            <img class="medalie" src="../images/bronz.png">Italy</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>200m spate Femei</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Australia<br>
+                                            <img class="medalie" src="../images/argint.png">Canada<br>
+                                            <img class="medalie" src="../images/bronz.png">Australia</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>100m fluture Bărbați</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">USA<br>
+                                            <img class="medalie" src="../images/argint.png">Hungary<br>
+                                            <img class="medalie" src="../images/bronz.png">Switzerland</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>4x100m liber Mixt</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Great Britain<br>
+                                            <img class="medalie" src="../images/argint.png">China<br>
+                                            <img class="medalie" src="../images/bronz.png">Australia</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>50m liber Femei</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Australia<br>
+                                            <img class="medalie" src="../images/argint.png">Sweden<br>
+                                            <img class="medalie" src="../images/bronz.png">Denmark</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>4x100m Mixt Bărbați</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">USA<br>
+                                            <img class="medalie" src="../images/argint.png">Great Britain<br>
+                                            <img class="medalie" src="../images/bronz.png">Italy</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>4x100m Mixt Femei</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Australia<br>
+                                            <img class="medalie" src="../images/argint.png">USA<br>
+                                            <img class="medalie" src="../images/bronz.png">Canada</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>50m liber Bărbați</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">USA<br>
+                                            <img class="medalie" src="../images/argint.png">France<br>
+                                            <img class="medalie" src="../images/bronz.png">Brazil</li></ul></td>
+                </tr>
+                <tr id="s38">
+                    <td class="cel-b"><ul><li>1500m liber Bărbați</li></ul></td>
+                    <td class="cel-b"><ul class="gab"><li><img class="medalie" src="../images/aur.png">USA<br>
+                                                          <img class="medalie" src="../images/argint.png">Ukraine<br>
+                                                          <img class="medalie" src="../images/bronz.png">Germany</li></ul></td>
+                </tr>
+                <tr>
+                    <td class="cel-b" rowspan="5"><img class="s-i" src="../images/s30.png"/><br>Tenis de masă</td>
+                    <td class="cel-b" rowspan="5">24.07 - 06.08</td>
+                    <td><ul><li>Echipa mixtă</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Japan<br>
+                                            <img class="medalie" src="../images/argint.png">China<br>
+                                            <img class="medalie" src="../images/bronz.png">Taipei</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Femei ind.</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">China<br>
+                                            <img class="medalie" src="../images/argint.png">China<br>
+                                            <img class="medalie" src="../images/bronz.png">Japan</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Bărbați ind.</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">China<br>
+                                            <img class="medalie" src="../images/argint.png">China<br>
+                                            <img class="medalie" src="../images/bronz.png">Germany</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Femei echipă</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">China<br>
+                                            <img class="medalie" src="../images/argint.png">Japan<br>
+                                            <img class="medalie" src="../images/bronz.png">Hong Kong</li></ul></td>
+                </tr>
+                <tr id="s39">
+                    <td class="cel-b"><ul><li>Bărbați echipă</li></ul></td>
+                    <td class="cel-b"><ul class="gab"><li><img class="medalie" src="../images/aur.png">China<br>
+                                                          <img class="medalie" src="../images/argint.png">Germany<br>
+                                                          <img class="medalie" src="../images/bronz.png">Japan</li></ul></td>
+                </tr>
+                <tr>
+                    <td class="cel-b" rowspan="8"><img class="s-i" src="../images/s31.png"/><br>Taekwondo</td>
+                    <td class="cel-b" rowspan="8">24.07 - 27.07</td>
+                    <td><ul><li>Bărbați 58kg</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Italy<br>
+                                            <img class="medalie" src="../images/argint.png">Tunisia<br>
+                                            <img class="medalie" src="../images/bronz.png">Korea, ROC</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Femei 49kg</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Thailand<br>
+                                            <img class="medalie" src="../images/argint.png">Spain<br>
+                                            <img class="medalie" src="../images/bronz.png">Israel, Serbia</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Bărbați 68kg</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Uzbekistan<br>
+                                            <img class="medalie" src="../images/argint.png">Great Britain<br>
+                                            <img class="medalie" src="../images/bronz.png">China, Turkey</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Femei 57kg</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">USA<br>
+                                            <img class="medalie" src="../images/argint.png">ROC<br>
+                                            <img class="medalie" src="../images/bronz.png">Taipei, Turkey</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Bărbați 80kg</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">ROC<br>
+                                            <img class="medalie" src="../images/argint.png">Jordan<br>
+                                            <img class="medalie" src="../images/bronz.png">Croatia, Egypt</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Femei 67kg</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Croatia<br>
+                                            <img class="medalie" src="../images/argint.png">Great Britain<br>
+                                            <img class="medalie" src="../images/bronz.png">Cote d'Ivoire, Egypt</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Bărbați +80kg</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">ROC<br>
+                                            <img class="medalie" src="../images/argint.png">North Macedonia<br>
+                                            <img class="medalie" src="../images/bronz.png">Cuba, Korea</li></ul></td>
+                </tr>
+                <tr id="s40">
+                    <td class="cel-b"><ul><li>Femei +67kg</li></ul></td>
+                    <td class="cel-b"><ul class="gab"><li><img class="medalie" src="../images/aur.png">Serbia<br>
+                                                          <img class="medalie" src="../images/argint.png">Korea<br>
+                                                          <img class="medalie" src="../images/bronz.png">France, Great Britain</li></ul></td>
+                </tr>
+                <tr>
+                    <td class="cel-b" rowspan="5"><img class="s-i" src="../images/s32.png"/><br>Tenis de câmp</td>
+                    <td class="cel-b" rowspan="5">24.07 - 01.08</td>
+                    <td><ul><li>Bărbați ind.</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Germany<br>
+                                            <img class="medalie" src="../images/argint.png">ROC<br>
+                                            <img class="medalie" src="../images/bronz.png">Spain</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Femei ind.</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Switzerland<br>
+                                            <img class="medalie" src="../images/argint.png">Czech Republic<br>
+                                            <img class="medalie" src="../images/bronz.png">Ukraine</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Bărbați pereche</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Croatia<br>
+                                            <img class="medalie" src="../images/argint.png">Croatia<br>
+                                            <img class="medalie" src="../images/bronz.png">New Zealand</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Femei pereche</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Czech Republic<br>
+                                            <img class="medalie" src="../images/argint.png">Switzerland<br>
+                                            <img class="medalie" src="../images/bronz.png">Brazil</li></ul></td>
+                </tr>
+                <tr id="s41">
+                    <td class="cel-b"><ul><li>Perechea mixtă</li></ul></td>
+                    <td class="cel-b"><ul class="gab"><li><img class="medalie" src="../images/aur.png">ROC<br>
+                                                          <img class="medalie" src="../images/argint.png">ROC<br>
+                                                          <img class="medalie" src="../images/bronz.png">Australia</li></ul></td>
+                </tr>
+                <tr>
+                    <td class="cel-b" rowspan="2"><img class="s-i" src="../images/s24.png"/><br>Trambulină</td>
+                    <td class="cel-b" rowspan="2">30.07 - 31.07</td>
+                    <td><ul><li>Femei</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">China<br>
+                                            <img class="medalie" src="../images/argint.png">China<br>
+                                            <img class="medalie" src="../images/bronz.png">Great Britain</li></ul></td>
+                </tr>
+                <tr id="s42">
+                    <td class="cel-b"><ul><li>Bărbați</li></ul></td>
+                    <td class="cel-b"><ul class="gab"><li><img class="medalie" src="../images/aur.png">Belarus<br>
+                                                          <img class="medalie" src="../images/argint.png">China<br>
+                                                          <img class="medalie" src="../images/bronz.png">New Zealand</li></ul></td>
+                </tr>
+                <tr>
+                    <td class="cel-b" rowspan="3"><img class="s-i" src="../images/s33.png"/><br>Triatlon</td>
+                    <td class="cel-b" rowspan="3">26.07 - 31.07</td>
+                    <td><ul><li>Bărbați ind.</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Norway<br>
+                                            <img class="medalie" src="../images/argint.png">Great Britain<br>
+                                            <img class="medalie" src="../images/bronz.png">New Zealand</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Femei ind.</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Bermuda<br>
+                                            <img class="medalie" src="../images/argint.png">Great Britain<br>
+                                            <img class="medalie" src="../images/bronz.png">USA</li></ul></td>
+                </tr>
+                <tr id="s43">
+                    <td class="cel-b"><ul><li>Echipa mixtă</li></ul></td>
+                    <td class="cel-b"><ul class="gab"><li><img class="medalie" src="../images/aur.png">Great Britain<br>
+                                                          <img class="medalie" src="../images/argint.png">USA<br>
+                                                          <img class="medalie" src="../images/bronz.png">France</li></ul></td>
+                </tr>
+                <tr>
+                    <td class="cel-b" rowspan="2"><img class="s-i" src="../images/s8.png"/><br>Volei</td>
+                    <td class="cel-b" rowspan="2">24.07 - 08.08</td>
+                    <td><ul><li>Bărbați</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">France<br>
+                                            <img class="medalie" src="../images/argint.png">ROC<br>
+                                            <img class="medalie" src="../images/bronz.png">Argentina</li></ul></td>
+                </tr>
+                <tr id="s44">
+                    <td class="cel-b"><ul><li>Femei</li></ul></td>
+                    <td class="cel-b"><ul class="gab"><li><img class="medalie" src="../images/aur.png">USA<br>
+                                                          <img class="medalie" src="../images/argint.png">Brazil<br>
+                                                          <img class="medalie" src="../images/bronz.png">Serbia</li></ul></td>
+                </tr>
+                <tr>
+                    <td class="cel-b" rowspan="2"><img class="s-i" src="../images/s34.png"/><br>Polo pe apă</td>
+                    <td class="cel-b" rowspan="2">24.07 - 08.08</td>
+                    <td><ul><li>Bărbați</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Serbia<br>
+                                            <img class="medalie" src="../images/argint.png">Greece<br>
+                                            <img class="medalie" src="../images/bronz.png">Hungary</li></ul></td>
+                </tr>
+                <tr id="s45">
+                    <td class="cel-b"><ul><li>Femei</li></ul></td>
+                    <td class="cel-b"><ul class="gab"><li><img class="medalie" src="../images/aur.png">USA<br>
+                                                          <img class="medalie" src="../images/argint.png">Spain<br>
+                                                          <img class="medalie" src="../images/bronz.png">Hungary</li></ul></td>
+                </tr>
+                <tr>
+                    <td class="cel-b" rowspan="14"><img class="s-i" src="../images/s35.png"/><br>Haltere</td>
+                    <td class="cel-b" rowspan="14">24.07 - 04.08</td>
+                    <td><ul><li>Femei 49kg</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">China<br>
+                                            <img class="medalie" src="../images/argint.png">India<br>
+                                            <img class="medalie" src="../images/bronz.png">Indonesia</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Bărbați 61kg</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">China<br>
+                                            <img class="medalie" src="../images/argint.png">Indonesia<br>
+                                            <img class="medalie" src="../images/bronz.png">Kazakhstan</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Bărbați 67kg</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">China<br>
+                                            <img class="medalie" src="../images/argint.png">Colombia<br>
+                                            <img class="medalie" src="../images/bronz.png">Italy</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Femei 55kg</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Philippines<br>
+                                            <img class="medalie" src="../images/argint.png">China<br>
+                                            <img class="medalie" src="../images/bronz.png">Kazakhstan</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Femei 59kg</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Taipei<br>
+                                            <img class="medalie" src="../images/argint.png">Turkmenistan<br>
+                                            <img class="medalie" src="../images/bronz.png">Japan</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Femei 64kg</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Canada<br>
+                                            <img class="medalie" src="../images/argint.png">Italy<br>
+                                            <img class="medalie" src="../images/bronz.png">Taipei</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Bărbați 73kg</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">China<br>
+                                            <img class="medalie" src="../images/argint.png">Venezuela<br>
+                                            <img class="medalie" src="../images/bronz.png">Indonesia</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Bărbați 81kg</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">China<br>
+                                            <img class="medalie" src="../images/argint.png">Dominican Republic<br>
+                                            <img class="medalie" src="../images/bronz.png">Italy</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Bărbați 96kg</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Qatar<br>
+                                            <img class="medalie" src="../images/argint.png">Venezuela<br>
+                                            <img class="medalie" src="../images/bronz.png">Georgia</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Femei 76kg</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Ecuador<br>
+                                            <img class="medalie" src="../images/argint.png">USA<br>
+                                            <img class="medalie" src="../images/bronz.png">Mexico</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Femei 87kg</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">China<br>
+                                            <img class="medalie" src="../images/argint.png">Ecuador<br>
+                                            <img class="medalie" src="../images/bronz.png">Dominican Republic</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Femei +87kg</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">China<br>
+                                            <img class="medalie" src="../images/argint.png">Great Britain<br>
+                                            <img class="medalie" src="../images/bronz.png">USA</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Bărbați 109kg</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Uzbekistan<br>
+                                            <img class="medalie" src="../images/argint.png">Armenia<br>
+                                            <img class="medalie" src="../images/bronz.png">Latvia</li></ul></td>
+                </tr>
+                <tr id="s46">
+                    <td class="cel-b"><ul><li>Bărbați +109kg</li></ul></td>
+                    <td class="cel-b"><ul class="gab"><li><img class="medalie" src="../images/aur.png">Georgia<br>
+                                                          <img class="medalie" src="../images/argint.png">Iran<br>
+                                                          <img class="medalie" src="../images/bronz.png">Sirian Arab Republic</li></ul></td>
+                </tr>
+                <tr>
+                    <td rowspan="18"><img class="s-i" src="../images/s36.png"/><br>Lupte</td>
+                    <td rowspan="18">01.08 - 07.08</td>
+                    <td><ul><li>Bărbați greco-roman 60kg</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Cuba<br>
+                                            <img class="medalie" src="../images/argint.png">Japan<br>
+                                            <img class="medalie" src="../images/bronz.png">China, ROC</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Bărbați greco-roman 130kg</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Cuba<br>
+                                            <img class="medalie" src="../images/argint.png">Georgia<br>
+                                            <img class="medalie" src="../images/bronz.png">Turkey, ROC</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Femei libere 76kg</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Germany<br>
+                                            <img class="medalie" src="../images/argint.png">USA<br>
+                                            <img class="medalie" src="../images/bronz.png">Turkey, China</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Bărbați greco-roman 77kg</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Hungary<br>
+                                            <img class="medalie" src="../images/argint.png">Kazakhstan<br>
+                                            <img class="medalie" src="../images/bronz.png">Japan, Azerbaijan</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Bărbați greco-roman 97kg</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">ROC<br>
+                                            <img class="medalie" src="../images/argint.png">Armenia<br>
+                                            <img class="medalie" src="../images/bronz.png">Poland, Iran</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Femei libere 68kg</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">USA<br>
+                                            <img class="medalie" src="../images/argint.png">Nigeria<br>
+                                            <img class="medalie" src="../images/bronz.png">Ukraine, Kazakhstan</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Bărbați greco-roman 67kg</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Iran<br>
+                                            <img class="medalie" src="../images/argint.png">Ukraine<br>
+                                            <img class="medalie" src="../images/bronz.png">Germany, Egypt</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Bărbați greco-roman 87kg</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Ukraine<br>
+                                            <img class="medalie" src="../images/argint.png">Hungary<br>
+                                            <img class="medalie" src="../images/bronz.png">Germany, Serbia</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Femei libere 62kg</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Japan<br>
+                                            <img class="medalie" src="../images/argint.png">Kyrgyzstan<br>
+                                            <img class="medalie" src="../images/bronz.png">Ukraine, Bulgaria</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Femei libere 57kg</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Japan<br>
+                                            <img class="medalie" src="../images/argint.png">Belarus<br>
+                                            <img class="medalie" src="../images/bronz.png">USA, Bulgaria</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Bărbați libere 57kg</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">ROC<br>
+                                            <img class="medalie" src="../images/argint.png">India<br>
+                                            <img class="medalie" src="../images/bronz.png">Kazakhstan, USA</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Bărbați libere 86kg</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">USA<br>
+                                            <img class="medalie" src="../images/argint.png">Iran<br>
+                                            <img class="medalie" src="../images/bronz.png">ROC, San Marino</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Femei libere 53kg</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Japan<br>
+                                            <img class="medalie" src="../images/argint.png">China<br>
+                                            <img class="medalie" src="../images/bronz.png">Belarus, Mongolia</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Bărbați libere 74kg</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">ROC<br>
+                                            <img class="medalie" src="../images/argint.png">Belarus<br>
+                                            <img class="medalie" src="../images/bronz.png">USA, Uzbekistan</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Bărbați libere 125kg</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">USA<br>
+                                            <img class="medalie" src="../images/argint.png">Georgia<br>
+                                            <img class="medalie" src="../images/bronz.png">Iran, Turkey</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Femei libere 50kg</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Japan<br>
+                                            <img class="medalie" src="../images/argint.png">China<br>
+                                            <img class="medalie" src="../images/bronz.png">Azerbaijan, USA</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Bărbați libere 65kg</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">Japan<br>
+                                            <img class="medalie" src="../images/argint.png">Azerbaijan<br>
+                                            <img class="medalie" src="../images/bronz.png">ROC, India</li></ul></td>
+                </tr>
+                <tr>
+                    <td><ul><li>Bărbați libere 97kg</li></ul></td>
+                    <td><ul class="gab"><li><img class="medalie" src="../images/aur.png">ROC<br>
+                                            <img class="medalie" src="../images/argint.png">USA<br>
+                                            <img class="medalie" src="../images/bronz.png">Cuba, Italy</li></ul></td>
+                </tr>
+            </table>
+        </main>
+    </div>
+    <footer>
+        <div>Proiectul este creat în cadrul cursului de la Tekwill. Vara 2021. Diacova Janna.</div>
+    </footer>
+    <script src="../js/main.js"></script>
+</body>
+</html>

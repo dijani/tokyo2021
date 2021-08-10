@@ -1,0 +1,417 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    box-sizing: border-box;
+}
+::-webkit-scrollbar{
+    width: 8px;
+}
+::-webkit-scrollbar-thumb{
+    background: rgb(78, 121, 121);
+    border-radius: 5px;
+}
+body{
+    margin: 0;
+    background-color: rgb(208, 216, 231);
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    height: 70px;
+    background-color: rgb(48, 62, 88);
+    position: fixed;
+    width: 100%;
+    padding: 20px 30px;
+    font-size: 24px;
+    z-index: 1;
+}
+header a{
+    color: White;
+    text-decoration: none;
+    padding-left: 15px;
+}
+#text-data{
+    color: white;
+    font-size: 18px;
+    text-align: right;
+    position: fixed;
+    top: 25px;
+    right: 20px;
+}
+footer{
+    padding-left: 190px;
+    height: 20px;
+    width: 100%;
+    background-color: rgb(46, 65, 100);
+    font-size: 12px;
+}
+footer div{
+    text-align: center;
+}
+.page-box{
+    min-height: 100vh;
+    padding-top: 70px;
+    padding-bottom: 20px;
+}
+main{
+    margin: 10px 5% 60px 220px;
+    padding: 0px 25px;
+}
+aside{
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    background: linear-gradient(to bottom, rgb(55, 72, 102),rgb(38, 133, 161));
+    padding-top: 5px;
+    font-size: 20px;
+    display: block;
+}
+aside a{
+    display: block;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 20px;
+}
+.title{
+    border-bottom: 4px solid #f08f10; 
+    margin-bottom: 5px;
+    margin-top: 10px;
+    display: inline-block;
+}
+p{
+    line-height: 150%;
+    border-left: 3px solid rgb(21, 120, 150);
+    padding-left: 10px;
+    text-align: justify;
+}
+.open-video{
+    display: block;
+    max-height: 70vh;
+    margin: 30px auto;
+    max-width: 100%;
+    border-radius: 100px;
+}
+.gallery{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.gallery img{
+    width: 100%;
+    transition: all 0.3s;
+}
+.gallery img:hover{
+    transform:scale(1.07);
+    transition: all 0.3s;
+}
+h6{
+    text-align: right;
+}
+.up{
+    position: fixed;
+    width: 40px;
+    bottom: 23px;
+    right: 20px;
+}
+#top1, #top2, #top3, #top4 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.sportivi{
+    text-decoration: none;
+    color:rgb(86, 20, 114);
+}
+.sportivi:hover{
+    font-weight: bolder;
+}
+.sport-m{
+    border:2px solid rgb(48, 2, 80);
+    padding: 3px;
+    border-radius: 5px;
+    margin: auto;
+    width: 80%;
+    background-image: url("../images/m.png");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:auto;
+}
+.sport-m tr:hover{
+    background-color: rgb(217, 240, 240);
+}
+.sport-m th{
+    border:2px solid rgb(48, 2, 80);
+    padding: 3px;
+    border-radius: 5px;
+    background-color: rgb(171, 217, 231);
+}
+.sport-m td{
+    border:2px solid rgb(48, 2, 80);
+    padding: 3px;
+    border-radius: 5px;
+}
+.disc-s{
+    background-color: rgb(241, 197, 241);
+}
+.centered{
+    text-align: center;
+}
+.gal-m{
+    text-align: center;
+}
+.gal-m img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin: 5px;
+    border: 2px solid blueviolet;
+    filter:drop-shadow(4px 4px 2px rgba(143, 114, 170, 0.8)) ;
+    transition: 1s;
+}
+.gal-m img:hover{
+    transform: scale(1.05) translate(5px, 5px);
+    transition: 1s;
+}
+.mascota{
+    position: fixed;
+    width: 80px;
+    top: 70px;
+    right: 20px;
+}
+.gal-mobile{
+    display: none;
+}
+.icons-sport{
+    text-align: center;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0px 0px 15px 0px;
+}
+.icons-sport-mob{
+    display: none;
+}
+.s-icon{
+    height: 30px;
+    width: 30px;
+    object-fit: contain;
+}
+.s-i{
+    height: 50px;
+}
+.activ{
+    width: 85%;
+    margin: auto;
+    border: 1px dashed blueviolet;
+    padding: 5px;
+    border-radius: 5px;
+    background: linear-gradient(to right, rgba(171, 217, 231, 0.8),rgba(234, 153, 245, 0.8));
+}
+.activ th{
+    border-bottom: 1px dashed blueviolet;
+    padding: 5px;
+}
+.activ td{
+    padding: 5px;
+    vertical-align: top;
+}
+.cel-b{
+    border-bottom: 1px dashed blueviolet;
+}
+.activ ul{
+    margin: 0px;
+}
+.gab{
+    list-style-image: url("../images/winner.png");
+}
+.medalie{
+    width: 10px;
+}
+.music{
+    width: 100%;
+    height: 50px;
+}
+[class^="col-"]{
+    float: left;
+    padding: 5px;
+}
+.col-47{
+    width: 47%;
+    padding: 10px;
+    margin-left: 25px;
+}
+.col-35{
+    width: 35%; 
+    margin-left: 2px; 
+}
+.video{
+    max-width: 100%;
+    height: 280px;
+    margin: auto;
+    border-radius: 10px;
+}
+.foto{
+    max-width: 100%;
+    height: 280px;
+    margin: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    display: block;
+}
+.col-62{
+    width: 62%; 
+    margin-left: 30px;
+    padding: 5px 15px;
+    border: 1px dashed blueviolet;
+    background-color: rgb(179, 205, 231);
+}
+.row{
+    overflow: auto;
+}
+.row-event{
+    margin-top: 20px;
+}
+.event{
+    border-radius: 10px;
+    height: 300px;
+    overflow-y: scroll;
+}
+.contact-list{
+    line-height: 125%;
+    list-style: linear-gradient(rgb(179, 205, 231), blueviolet);
+}
+.contacte{
+    line-height: 125%;
+}
+.form{
+    background-color: rgb(197, 205, 219);
+    border-radius: 10px;
+    border: 1px solid blueviolet;
+    padding: 5px;
+    max-width: 90%;
+    height: 300px;
+}
+.form input, .form textarea{
+    display: block;
+    width: 95%;
+    resize: none;
+    margin: 10px auto;
+    font-family: inherit;
+    padding: 5px;
+    font-size: 16px;
+}
+.map{
+    height: 300px;
+    width: 90%;
+    border-radius: 10px;
+    border: 1px solid blueviolet;
+}
+#menu-btn{
+    color: white;
+    font-size: 23px;
+    position: absolute;
+    left: 5px;
+    top: 25px;
+    display: none;
+}
+.show{
+    display: block !important;
+}
+@media (max-width: 768px){
+    body{
+        font-size: 14px;
+    }
+    [class^="col-"]{
+        width: 100%;
+        margin: auto;
+    }
+    header{
+        height: 50px;
+        padding: 10px 15px;
+        font-size: 18px;
+    }
+    #text-data{
+        font-size: 14px;
+        top: 15px;
+        right: 20px;
+    }
+    #menu-btn{
+        display:block;
+        font-size: 20px;
+        top: 13px;
+    }
+    .page-box{
+        padding-top: 50px;
+    }
+    footer{
+        padding-left:0px;
+        height: 15px;
+        width: 100%;
+        background-color: rgb(46, 65, 100);
+        font-size: 8px;    
+    }
+    main{
+        margin: 0px;
+        padding: 10px 15px;
+    }
+    aside{
+        display: none;
+        height: 100vh;
+        padding-top: 0px;
+        z-index: 2;
+    }
+    .event{
+        width:fit-content ;
+    }
+    .sport-m{
+        background-image: none;
+    }
+    .gal-m{
+        display: none;
+    }
+    .gal-mobile{
+        text-align: center;
+        display: block;
+    }
+    .gal-m-mob img{
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        margin: 5px;
+        border: 2px solid blueviolet;
+    }
+    .butoane img{
+        width: 30px;
+    }
+    .gallery img{
+        width: 100px;
+        height: 120px;
+    }
+    .activ{
+        width: 100%;
+        font-size: 7px;
+    }
+    .icons-sport{
+        display: none;
+    }
+    .icons-sport-mob{
+        display: block;
+        text-align: center;
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content:center;
+        margin: 0px;
+    }
+    .s-i{
+        height: 25px;
+    }
+    .medalie{
+        width: 7px;
+    }
+}
